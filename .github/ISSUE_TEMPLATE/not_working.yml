@@ -1,0 +1,53 @@
+name: Not Working
+description: File a Fast Flag not working.
+title: "[REPORT] "
+labels: ["REPORT", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        PLEASE PROVIDE PROOF VIA IMAGE OR VIDEO
+  - type: input
+    id: name
+    attributes:
+      label: Fast Flag Name
+      description: "What are the Fast Flags that don't work?"
+      placeholder: DFIntS2PhysicsSenderRate
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: What happened to the Fast Flag?
+      options:
+        - "Removed from client"
+        - "Exists but does nothing"
+    validations:
+      required: true
+  - type: dropdown
+    id: validated
+    attributes:
+      label: "If it is removed from the client, did you use FStringDebugShowFlagState to check if it still exists in the client? (Ignore if not)"
+      multiple: false
+      options:
+        - "Yes"
+    validations:
+      required: false
+  - type: textarea
+    id: proof
+    attributes:
+      label: Proof
+      description: Please provide an image/video for proof.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Before you submit
+      description: You must have provided image/video proof of the issue.
+      options:
+        - label: "I have provided proof."
+          required: true

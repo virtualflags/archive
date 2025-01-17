@@ -1,0 +1,19 @@
+input: .
+output: .retype
+url: https://virtualflags.github.io/archive
+breadcrumb:
+  enabled: true
+  home: ":icon-home:"
+  separator: "|"
+branding:
+  title: "#VFlag$"
+  label: 01171.25
+  logo: assets/pbc.gif
+links:
+- text: VirtualFlags
+  link: https://virtualflags.github.io/archive
+footer:
+  copyright: "&copy; {{ year }} VirtualFlags"
+exclude: "README.md"
+meta:
+  title: " | VirtualFlags"
