@@ -379,7 +379,7 @@ order: -5
 ### New Experience Menu
 ```json
 {
-    "FFlagRefactorInExpGameSettings2": "True"
+    "FFlagRefactorInExpGameSettings": "True"
 }
 ```
 ### Enable First Time User Experience for Chrome UI
