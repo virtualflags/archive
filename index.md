@@ -10,15 +10,13 @@ icon: rel-file-path
   <img src="assets/plsnosend.gif" width="256" alt="YVL">
 </h3>
 
-<h1 align="center">#VFlag$</h1>
+<h1 align="center">Virtual Flags Archive</h1>
 
 <h3 align="center">
-  <a href="https://discord.gg/HNe7fzR9xg">
+  <a href="https://discord.gg/6zqNQTSkrg">
     <img src="https://img.shields.io/discord/1241247795470536725?logo=discord&logoColor=white&label=discord&color=4d3dff" width="156" alt="Join Discord">
   </a>
 </h3>
-
-<h6 align="center">.gg/fastflags</h6>
 
 > [!CAUTION]
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
