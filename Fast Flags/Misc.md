@@ -217,3 +217,11 @@ order: -8
     "FIntRenderMaxShadowAtlasUsageBeforeDownscale": "650"
 }
 ```
+### Self Explanatory 14
+> [!NOTE]
+> Allows you to edit the DataModel Patch
+```
+{
+    "FFlagDataModelPatcherForceLocal": "True"
+}
+```
