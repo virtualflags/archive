@@ -6,11 +6,11 @@ breadcrumb:
   home: ":icon-home:"
   separator: "|"
 branding:
-  title: "#VirtualFlag$"
-  label: 01171.25
+  title: "Virtual Flags"
+  label: master
   logo: assets/pbc.gif
 links:
-- text: VirtualFlags
+- text: Bloxstrap
   link: https://github.com/bloxstraplabs/bloxstrap
 footer:
   copyright: "&copy; {{ year }} VirtualFlags"
