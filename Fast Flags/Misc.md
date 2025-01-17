@@ -220,7 +220,7 @@ order: -8
 ### Self Explanatory 14
 > [!NOTE]
 > Allows you to edit the DataModel Patch
-```
+```json
 {
     "FFlagDataModelPatcherForceLocal": "True"
 }
