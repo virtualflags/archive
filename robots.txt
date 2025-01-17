@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://virtualflags.github.io/archive/sitemap.xml.gz
