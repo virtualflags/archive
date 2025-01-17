@@ -12,7 +12,7 @@ branding:
 links:
 - text: Repository
   link: https://github.com/virtualflags/archive
-  icon: logo-github
+  icon: mark-github
 - text: Issues
   link: https://github.com/virtualflags/archive/issues
   icon: comment-discussion
