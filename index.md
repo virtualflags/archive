@@ -22,7 +22,9 @@ icon: rel-file-path
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
 
 #### Version: `01.17.25`
-* **215 Currently Listed**
+* **216 Currently Listed**
+* **Update `FFlagRefactorInExpGameSettings` to function properly
+* **`Force Local DataModel Patcher`**
 
 ## List Meanings
 **✨ - sOmethin rare hArd to get > like a holy treAsure its dat one thIng you gotta hAve could be a shoe a cAr or a piece of arT + everybody wAnts it but only a fEw get it = it’s dat uLtimate find ya feel me?**
