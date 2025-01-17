@@ -10,8 +10,12 @@ branding:
   label: master
   logo: assets/pbc.gif
 links:
-- text: Bloxstrap
-  link: https://github.com/bloxstraplabs/bloxstrap
+- text: Repository
+  link: https://github.com/virtualflags/archive
+  icon: logo-github
+- text: Issues
+  link: https://github.com/virtualflags/archive/issues
+  icon: comment-discussion
 footer:
   copyright: "&copy; {{ year }} VirtualFlags"
 exclude: "README.md"
