@@ -4,12 +4,10 @@
 
 <h1 align="center">FastFlags Archive</h1>
 
-<h3 align="center">https://virtualflags.github.io/VirtualFlags</h3>
+<h3 align="center">https://virtualflags.github.io/archive</h3>
 
 
 This repository is a collaborative effort to maintain an **organized list of FastFlags**, allowing others to explore and learn more about these hidden configurations.  
-
----
 
 ### **How to Contribute**  
 
@@ -26,8 +24,6 @@ We encourage community contributions to keep this resource comprehensive and up-
 
 4. **Share Insights**  
    If you observe how a specific flag impacts functionality, document your findings to help others.  
-
----
 
 ### **Steps to Contribute**  
 
@@ -51,8 +47,6 @@ We encourage community contributions to keep this resource comprehensive and up-
    Once you've made your changes:  
    - Open a pull request with a clear description of your updates.  
    - Include **proof or evidence** supporting your changes, such as screenshots, videos, or detailed reproduction steps.  
-
----
 
 ### **Why Contribute?**  
 
