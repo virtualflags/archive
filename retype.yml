@@ -11,7 +11,7 @@ branding:
   logo: assets/pbc.gif
 links:
 - text: VirtualFlags
-  link: https://virtualflags.github.io/archive
+  link: https://github.com/bloxstraplabs/bloxstrap
 footer:
   copyright: "&copy; {{ year }} VirtualFlags"
 exclude: "README.md"
