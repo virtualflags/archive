@@ -6,7 +6,7 @@ breadcrumb:
   home: ":icon-home:"
   separator: "|"
 branding:
-  title: "#VFlag$"
+  title: "#VirtualFlag$"
   label: 01171.25
   logo: assets/pbc.gif
 links:
