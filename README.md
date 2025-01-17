@@ -54,4 +54,4 @@ Your contributions help build a reliable knowledge base about FastFlags, offerin
 
 If you have questions or suggestions, feel free to open an issue or reach out! Together, we can keep this resource informative and accessible.
 
-<h4 align="center">© 2025 VFlags All Rights Reserved.</h4>
+<h4 align="center">© 2025 VirtualFlags</h4>
