@@ -28,3 +28,9 @@ order: -1
     "FFlagUnifiedLightingBetaFeature": "True"
 }
 ```
+### Unified Lighting Blendzone
+```json
+{
+    "FIntUnifiedLightingBlendZone": "500"
+}
+```
