@@ -3,6 +3,21 @@ title: Abusive
 icon: alert-fill
 order: -7
 ---
+### Teleport All Ragdolls/Unanchored to 0, 0, 0
+> [!NOTE]
+> Clientsided
+```json
+{
+    "DFIntGameNetLocalSpaceMaxSendIndex": "10000"
+}
+```
+### No Knockback/Ragdoll
+```json
+{
+    "DFIntGameNetLocalSpaceMaxSendIndex": "100000",
+    "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "0"
+}
+```
 ### Tool Desync
 ```json
 {
@@ -96,7 +111,8 @@ order: -7
     "DFIntTouchSenderMaxBandwidthBps": "-1"
 }
 ```
-### Fake Lag ✨
+### Fake Lag/Desync ✨
+i hate to call it desync lol
 ```json
 {
     "DFIntS2PhysicsSenderRate": "1"
@@ -185,7 +201,9 @@ order: -7
 {
     "DFIntMinClientSimulationRadius": "2147000000",
     "DFIntMinimalSimRadiusBuffer": "2147000000",
-    "DFIntMaxClientSimulationRadius": "2147000000"
+    "DFIntMaxClientSimulationRadius": "2147000000",
+    "DFFlagDebugPhysicsSenderDoesNotShrinkSimRadius": "True",
+    "FFlagDebugUseCustomSimRadius": "True"
 }
 ```
 ### Slide on Terrain/Meshes
