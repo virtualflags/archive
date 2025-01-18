@@ -434,6 +434,12 @@ order: -5
     "FFlagDisablePlayerListDisplayCloseBtn": "True"
 }
 ```
+### Self Explanatory i think
+```json
+{
+    "FFlagChromeUsePreferredTransparency": "True"
+}
+```
 ### Pin Chat on Chrome UI
 ```json
 {
