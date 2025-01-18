@@ -71,6 +71,12 @@ order: -7
     "FFlagProcessAnimationLooped": "False"
 }
 ```
+### Disable Animation Dynamic Speed
+```json
+{
+    "DFFlagUserAnimateScaleRun": "False"
+}
+```
 ### Stick unanchored parts to you
 > [!TIP]
 > **- = up, + = down**
