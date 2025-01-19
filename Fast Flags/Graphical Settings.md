@@ -4,7 +4,12 @@ icon: device-desktop
 order: -3
 ---
 
-
+### Disable Highlights 
+```json
+{
+    "FFlagRenderDynamicResolutionScale9": "True"
+}
+```
 ### Disable Highlights 
 ```json
 {
