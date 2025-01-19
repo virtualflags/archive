@@ -180,6 +180,13 @@ i hate to call it desync lol
     "DFIntSimBroadPhasePairCountMax": "50"
 }
 ```
+### Noclip 3/Mesh Noclip ✨
+@tyetonix
+```json
+{
+    "DFIntPhysicsDecompForceUpgradeVersion": "1500"
+}
+```
 ### Hip Height ✨
 > [!NOTE]
 > **Very controllable bounce, only works with negative values**
