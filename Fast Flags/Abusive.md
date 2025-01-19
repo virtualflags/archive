@@ -213,10 +213,11 @@ i hate to call it desync lol
 }
 ```
 ### Slide on Terrain/Meshes
-@tyetonix
+@tyetonix & @amongusphobia
 ```json
 {
-    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
+    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999",
+    "DFIntMaximumFreefallMoveTimeInTenths": "2147483647"
 }
 ```
 ### Drive Vehicles Slow
