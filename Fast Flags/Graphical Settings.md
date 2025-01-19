@@ -10,7 +10,7 @@ order: -3
     "FFlagRenderDynamicResolutionScale9": "True"
 }
 ```
-### Disable Highlights 
+### Enable DRS
 ```json
 {
     "DFFlagRenderHighlightManagerPrepare": "True"
