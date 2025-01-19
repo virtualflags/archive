@@ -104,7 +104,7 @@ order: -8
 ### logs stuff in dev console
 ```json
 {
-    "FStringDebugLuaLogLevel": "debug",
+    "FStringDebugLuaLogLevel": "verbose",
     "FStringDebugLuaLogPattern": "ExpChat/mountClientApp"
 }
 ```
