@@ -7,4 +7,7 @@ order: -2
 
 [!embed](https://www.youtube.com/embed/YG3EhWlBaoI)
 
-<div align="center">
+## 🏅 Thanks to all Contributors
+Thanks a lot for spending your time helping.
+
+[![Contributors](https://contrib.rocks/image?repo=virtualflags/archive)](https://github.com/virtualflags/archive/graphs/contributors)
