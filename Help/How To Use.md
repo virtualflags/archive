@@ -20,7 +20,7 @@ icon: devices
 
 [Watch a Video Tutorial](https://streamable.com/rk5an6)
 
-## Android Rootless Roblox (MT Manager) How to Use:
+## :icon-question: Android Rootless Roblox (MT Manager) How to Use:
 > [!CAUTION]
 > Roblox is implementing anti-tamper measures on mobile. Proceed at your own risk.
 
@@ -34,7 +34,7 @@ icon: devices
 8. **Install the modified APK.**
 ###### This process must be repeated whenever a new Roblox build is released, as the modifications will not carry over to new updates.
 
-## How to Use _PlaceFilter
+## :icon-question: How to Use _PlaceFilter
 1. **Add** `_PlaceFilter` **after** the **Fast Flag name**.
 2. **Add** a **semicolon after** the Value (`;`). **Examples**: `True;`, `1;`.
 3. **Include** a **Place ID after** the **semicolon**. **Examples**: `True;4483381587`, `1;4483381587`.
