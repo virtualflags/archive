@@ -217,7 +217,7 @@ order: -5
 ### Enable New Settings Layout
 ```json
 {
-    "FFlagOverrideInExperienceMenuReorderVariant1": "True"
+    "FFlagInExperienceMenuReorderFirstVariant2": "True"
 }
 ```
 ### No Transparency V4 Menu **(2023)**
@@ -353,12 +353,6 @@ order: -5
 ```json
 {
     "FFlagBetterTrackpadScrolling": "True"
-}
-```
-### Experience Menu Reorder 
-```json
-{
-    "FFlagOverrideInExperienceMenuReorderVariant1": "True"
 }
 ```
 ### Reset Character instead of Respawn in Experience Menu
