@@ -2,6 +2,7 @@
 title: Abusive
 icon: alert-fill
 order: -7
+visibility: protected
 ---
 ### Teleport All Ragdolls/Unanchored to 0, 0, 0
 > [!NOTE]
