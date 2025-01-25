@@ -28,7 +28,7 @@ order: -3
 > This flag is most effective in CPU-bound scenarios.
 
 > [!CAUTION]
-> Enabling this FastFlag may lead to compatibility issues with certain games. (It works fine dw)
+> Enabling this FastFlag may lead to input lag & crashes
 ===
 ```json
 {
