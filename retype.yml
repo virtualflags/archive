@@ -8,7 +8,8 @@ breadcrumb:
 branding:
   title: "Virtual Flags"
   label: master
-  logo: assets/pbc.gif
+  logo: assets/00xo-white.png
+  logoDark: assets/00xo.png
 links:
 - text: Repository
   link: https://github.com/virtualflags/archive
