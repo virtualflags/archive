@@ -14,9 +14,11 @@ icon: rel-file-path
 
 <div align="center">
 
-[![License][shield-repo-license]][repo-license]
-[![GitHub Workflow Status][shield-repo-workflow]][repo-actions]
-[![Discord][shield-discord-server]][discord-invite]
+<h3 align="center">
+  <a href="https://discord.gg/6zqNQTSkrg">
+    <img src="https://img.shields.io/discord/1241247795470536725?logo=discord&logoColor=white&label=discord&color=4d3dff" width="156" alt="Join Discord">
+  </a>
+</h3>
 
 </div>
 
@@ -30,13 +32,3 @@ icon: rel-file-path
 [!ref icon="log"](/logs/changelog.md)
 
 </div>
-
-[shield-repo-license]:  https://img.shields.io/github/license/virtualflags/archive
-[shield-repo-workflow]: https://img.shields.io/github/actions/workflow/status/virtualflags/archive/retype-action.yml?branch=master&label=builds
-
-[shield-discord-server]: https://img.shields.io/discord/1241247795470536725?logo=discord&logoColor=white&label=discord&color=4d3dff
-
-[repo-license]:  https://github.com/virtualflags/archive/blob/main/LICENSE
-[repo-actions]:  https://github.com/virtualflags/archive/actions
-
-[discord-invite]:  https://discord.gg/6zqNQTSkrg
