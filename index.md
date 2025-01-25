@@ -20,3 +20,11 @@ icon: rel-file-path
 
 > [!CAUTION]
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
+
+<div align="center">
+
+:icon-book: 226 Currently Listed [!badge variant="info" text="LATEST"
+
+[!ref icon="log"](/changelog.md)
+
+</div>
