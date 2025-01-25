@@ -5,7 +5,7 @@ order: -3
 
 <div align="center">
 
-### v1.25 [!badge variant="info" text="INITIAL"]
+### v1.25 [!badge variant="info" text="LATEST"]
 Released: 2025-01-25
 
 </div>
