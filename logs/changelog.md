@@ -1,6 +1,7 @@
 ---
 icon: log
 order: -3
+visibility: hidden
 ---
 
 <div align="center">
