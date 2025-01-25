@@ -21,11 +21,6 @@ links:
   icon: comment-discussion
 footer:
   copyright: "&copy; {{ year }} VirtualFlags"
-    links:
-    - text: Bloxstrap
-      link: https://github.com/bloxstraplabs/bloxstrap
-    - text: Fishstrap
-      link: https://github.com/returnrqt/fishstrap/commits?author=returnrqt
 exclude: "README.md"
 meta:
   title: " | VirtualFlags"
