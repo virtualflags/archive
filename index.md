@@ -23,7 +23,7 @@ icon: rel-file-path
 
 <div align="center">
 
-:icon-book: 226 Currently Listed [!badge variant="info" text="LATEST"
+:icon-book: 226 Currently Listed [!badge variant="info" text="LATEST"]
 
 [!ref icon="log"](/changelog.md)
 
