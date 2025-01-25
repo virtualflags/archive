@@ -4,9 +4,13 @@
 
 <h1 align="center">FastFlags Archive</h1>
 
+<div align="center">
+
 [![License][shield-repo-license]][repo-license]
 [![GitHub Workflow Status][shield-repo-workflow]][repo-actions]
 [![Discord][shield-discord-server]][discord-invite]
+
+</div>
 
 <h3 align="center">https://virtualflags.github.io/archive</h3>
 
