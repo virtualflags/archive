@@ -4,6 +4,10 @@
 
 <h1 align="center">FastFlags Archive</h1>
 
+[![License][shield-repo-license]][repo-license]
+[![GitHub Workflow Status][shield-repo-workflow]][repo-actions]
+[![Discord][shield-discord-server]][discord-invite]
+
 <h3 align="center">https://virtualflags.github.io/archive</h3>
 
 
@@ -55,3 +59,13 @@ Your contributions help build a reliable knowledge base about FastFlags, offerin
 If you have questions or suggestions, feel free to open an issue or reach out! Together, we can keep this resource informative and accessible.
 
 <h4 align="center">© 2025 VirtualFlags</h4>
+
+[shield-repo-license]:  https://img.shields.io/github/license/virtualflags/archive
+[shield-repo-workflow]: https://img.shields.io/github/actions/workflow/status/virtualflags/archive/retype-action.yml?branch=master&label=builds
+
+[shield-discord-server]: https://img.shields.io/discord/1241247795470536725?logo=discord&logoColor=white&label=discord&color=4d3dff
+
+[repo-license]:  https://github.com/virtualflags/archive/blob/main/LICENSE
+[repo-actions]:  https://github.com/virtualflags/archive/actions
+
+[discord-invite]:  https://discord.gg/6zqNQTSkr
