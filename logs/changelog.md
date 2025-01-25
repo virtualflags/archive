@@ -2,7 +2,7 @@
 icon: log
 order: -3
 visibility: hidden
-layout: page
+layout: central
 ---
 
 <div align="center">
