@@ -417,9 +417,7 @@ order: -5
 ### Chrome UI Topbar Removal
 ```json
 {
-    "FFlagEnableInGameMenuChromeABTest2": "False",
-    "FFlagEnableReportAbuseMenuRoactABTest2": "False",
-    "FFlagEnableInGameMenuChromeABTest3": "False"
+    "FFlagEnableInGameMenuChromeABTest4": "False"
 }
 ```
 ### Hide playerlist close button on Chrome UI
