@@ -7,13 +7,13 @@ order: -3
 ### Disable Highlights 
 ```json
 {
-    "FFlagRenderDynamicResolutionScale9": "True"
+    "DFFlagRenderHighlightManagerPrepare": "True"
 }
 ```
 ### Enable DRS
 ```json
 {
-    "DFFlagRenderHighlightManagerPrepare": "True"
+    "FFlagRenderDynamicResolutionScale10": "True"
 }
 ```
 ### Move Pre-Render Phase [~25% Performance Boost]
