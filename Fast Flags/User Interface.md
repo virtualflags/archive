@@ -208,10 +208,11 @@ order: -5
     "FFlagUIBloxUseNewThemeColorPalettes": "True"
 }
 ```
-### Disable Blue Theme
+### Ennable Blue Theme
 ```json
 {
-    "FFlagLuaAppFoundationColorsABTest": "False"
+    "FFlagLuaAppUseUIBloxColorPalettes1": "True",
+    "FFlagLuaAppEnableFoundationColors7": "True"
 }
 ```
 ### Enable New Settings Layout
