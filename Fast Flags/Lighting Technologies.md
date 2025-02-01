@@ -24,7 +24,7 @@ order: -1
 ### Unified Lighting
 ```json
 {
-    "FFlagRenderUnifiedLighting10": "True",
+    "FFlagRenderUnifiedLighting12": "True",
     "FFlagUnifiedLightingBetaFeature": "True"
 }
 ```
