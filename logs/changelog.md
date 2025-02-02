@@ -7,11 +7,16 @@ layout: central
 
 <div align="center">
 
-### v1.25-B [!badge variant="info" text="LATEST"]
+### v2.02 [!badge variant="info" text="LATEST"]
 Released: 2025-02-02
 
 </div>
 
++++ :icon-bug: Fixed
+- [x] Fix `Disable Highlights` and `Enable DRS` contents being swapped
+- [x] Fix `Chrome UI Topbar Removal` to work again
+- [x] `Disable Blue Theme` > `Enable Blue Theme`
+- [x] Fix `Unified Lighting` to work as of current production version
 +++ :icon-trash: Removed
 - [x] Removed `Disable Animation Dynamic Speed`
 +++
