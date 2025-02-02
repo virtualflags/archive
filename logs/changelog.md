@@ -7,7 +7,18 @@ layout: central
 
 <div align="center">
 
-### v1.25 [!badge variant="info" text="LATEST"]
+### v1.25-B [!badge variant="info" text="LATEST"]
+Released: 2025-02-02
+
+</div>
+
++++ :icon-trash: Removed
+- [x] Removed `Disable Animation Dynamic Speed`
++++
+
+<div align="center">
+
+### v1.25
 Released: 2025-01-25
 
 </div>
