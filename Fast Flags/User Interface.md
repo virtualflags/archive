@@ -383,12 +383,6 @@ order: -5
     "FFlagEnableChromeFTUX": "True"
 }
 ```
-### Disable Haptics Option
-```json
-{
-    "FFlagAddHapticsToggle": "False"
-}
-```
 ### Enable Better Haptics
 ```json
 {
