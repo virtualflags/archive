@@ -13,7 +13,7 @@ order: -3
 ### Enable DRS
 ```json
 {
-    "FFlagRenderDynamicResolutionScale10": "True"
+    "FFlagRenderDynamicResolutionScale11": "True"
 }
 ```
 ### Move Pre-Render Phase [~25% Performance Boost]
