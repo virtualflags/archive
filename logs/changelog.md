@@ -7,7 +7,20 @@ layout: central
 
 <div align="center">
 
-### v2.02 [!badge variant="info" text="LATEST"]
+### vNO.1.4.U.ON.VALENTINES 💘 [!badge variant="info" text="LATEST"]
+Released: 2025-02-14
+
+</div>
+
++++ :icon-sparkle-fill: New
+- [x] **`Improved Syncing`**
++++ :icon-trash: Removed
+- [x] **`FFlagAddHapticsToggle`**
++++
+
+<div align="center">
+
+### v2.02
 Released: 2025-02-02
 
 </div>
