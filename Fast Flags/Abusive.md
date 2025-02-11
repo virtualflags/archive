@@ -118,12 +118,18 @@ i hate to call it desync lol
     "DFIntS2PhysicsSenderRate": "1"
 }
 ```
+### Improved Syncing
+```json
+{
+    "DFIntS2PhysicsSenderRate": "10000"
+}
+```
 ### Invisible 1
 > [!NOTE]
 > **Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.**
 ```json
 {
-    "DFIntS2PhysicsSenderRate": "-30"
+    "DFIntS2PhysicsSenderRate": "100000"
 }
 ```
 ### Invisible 2 ✨
