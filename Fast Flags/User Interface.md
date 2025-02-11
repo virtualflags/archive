@@ -363,9 +363,11 @@ order: -5
 }
 ```
 
-# :icon-north-star: Experimental
+# :icon-north-star: Experimental [remind me to make this a different section]
 
-### Multi Try On [App Catalog]
+### Voicechat in Party
+> [!NOTE]
+> Person(s) you want to party with **must** have both of these to be disabled otherwise they won't be able to hear you/speak
 ```json
 {
    "FFlagAXEnableMultiTryOnUI": "True"
