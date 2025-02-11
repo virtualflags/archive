@@ -14,6 +14,7 @@ Released: 2025-02-14
 
 +++ :icon-sparkle-fill: New
 - [x] **`Improved Syncing`**
+- [x] **`Voicechat in Party`**
 +++ :icon-trash: Removed
 - [x] **`FFlagAddHapticsToggle`**
 +++
