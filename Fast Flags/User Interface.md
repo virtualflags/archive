@@ -109,7 +109,8 @@ order: -5
     "FIntNewInGameMenuPercentRollout3": "100",
     "FFlagEnableInGameMenuControls": "False",
     "FFlagDisableNewIGMinDUA": "True",
-    "FFlagEnableInGameMenuChromeABTest4": "False"
+    "FFlagEnableInGameMenuChromeABTest4": "False",
+    "FFlagEnableInGameMenuSongbirdABTest": "False"
 }
 ```
 ### Custom Disconnect Message
@@ -415,6 +416,7 @@ order: -5
 ```json
 {
     "FFlagEnableInGameMenuChromeABTest4": "False"
+    "FFlagEnableInGameMenuSongbirdABTest": "False"
 }
 ```
 ### Hide playerlist close button on Chrome UI
