@@ -7,7 +7,7 @@ layout: central
 
 <div align="center">
 
-### vNO.1.4.U.ON.VALENTINES 💘 [!badge variant="info" text="LATEST"]
+### v2.14 💘 [!badge variant="info" text="LATEST"]
 Released: 2025-02-14
 
 </div>
@@ -15,8 +15,14 @@ Released: 2025-02-14
 +++ :icon-sparkle-fill: New
 - [x] **`Improved Syncing`**
 - [x] **`Voicechat in Party`**
++++ :icon-bug: Fixed
+- [x] **`Enable DRS`**
+- [x] **`Draws a circle under avatars`**
+- [x] **`V2 Menu`**
+- [x] **`Chrome UI Topbar Removal`**
 +++ :icon-trash: Removed
 - [x] **`FFlagAddHapticsToggle`**
+- [ ] **List Check & Cleanup**
 +++
 
 <div align="center">
