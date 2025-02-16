@@ -253,7 +253,8 @@ i hate to call it desync lol
 ```json
 {
     "FFlagDebugAvatarChatVisualization": "True",
-    "FFlagEnableInGameMenuChromeABTest4": "False"
+    "FFlagEnableInGameMenuChromeABTest4": "False",
+    "FFlagEnableInGameMenuSongbirdABTest": "False"
 }
 ```
 ### Humanoid Outline
