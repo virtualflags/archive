@@ -4,6 +4,12 @@ icon: device-desktop
 order: -3
 ---
 
+### Set how many pixels to render
+```json
+{
+    "DFIntDebugDynamicRenderKiloPixels": "1"
+}
+```
 ### Disable Highlights 
 ```json
 {
