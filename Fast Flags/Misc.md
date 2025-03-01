@@ -1,227 +1,227 @@
 ---
-titwe: Misc
-icon: elipsis
-owdew: -8
+title: Misc
+icon: ellipsis
+order: -8
 ---
-# :icon-twash: wow
+# :icon-trash: lol
 
-### break evewything
+### break everything
 ```json
 {
-    "DFIntHttpWbxApiCwientPewMinyuteWequestWimit": "60",
-    "DFIntHttpWbxApiJobFwequencyInSeconds": "60",
-    "DFIntHttpRbxApiMaxBudgetMuwtipwiew": "2",
-    "DFIntHttpWbxApiMaxWetwyBudgetPewMinyute": "60",
-    "DFIntHttpWbxApiMaxWetwyCount": "3",
-    "DFIntHttpWbxApiMaxWetwyQueueSize": "1000",
-    "DFIntHttpWbxApiMaxSyncWetwies": "3",
-    "DFIntHttpWbxApiPewMinyuteWequestWimit": "60",
-    "DFIntHttpWbxApiSameUwwWequestWimit": "30",
-    "DFIntHttpWbxApiSewviceDecaySeconds": "300",
-    "DFIntHttpRbxApiMaxThwottwedQueue": "500"
+    "DFIntHttpRbxApiClientPerMinuteRequestLimit": "60",
+    "DFIntHttpRbxApiJobFrequencyInSeconds": "60",
+    "DFIntHttpRbxApiMaxBudgetMultiplier": "2",
+    "DFIntHttpRbxApiMaxRetryBudgetPerMinute": "60",
+    "DFIntHttpRbxApiMaxRetryCount": "3",
+    "DFIntHttpRbxApiMaxRetryQueueSize": "1000",
+    "DFIntHttpRbxApiMaxSyncRetries": "3",
+    "DFIntHttpRbxApiPerMinuteRequestLimit": "60",
+    "DFIntHttpRbxApiSameUrlRequestLimit": "30",
+    "DFIntHttpRbxApiServiceDecaySeconds": "300",
+    "DFIntHttpRbxApiMaxThrottledQueue": "500"
 }
 ```
-### ^-^ Stop the *boops your nose* Chinyese ÚwÚ fwom spying on you
+### Stop the Chinese from spying on you
 ```json
 {
-    "FStwingTencentAuthPath": "nuww"
+    "FStringTencentAuthPath": "null"
 }
 ```
-### omg i cant bewieve wobwox is that dumb to do this...
+### omg i cant believe roblox is that dumb to do this...
 ```json
 {
-    "FIntPhysicsGwidHiewawchyWowestWevewInyitBinCount": "-"199999999",
-    "FIntPhysicsGwidHiewawchyLowestLevewInyitBinCountWowwdModew": "100000000",
-    "FIntPhysicsSowvewCowwisionPoowBucketSize": "2147483647",
-    "FIntPhysicsSowvewCowwisionPoowBucketSizeWowwdModew": "2147483647"
+    "FIntPhysicsGridHierarchyLowestLevelInitBinCount": "199999999",
+    "FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel": "100000000",
+    "FIntPhysicsSolverCollisionPoolBucketSize": "2147483647",
+    "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
 }
 ```
-### Crash R-Robwox 1
+### Crash Roblox 1
 ```json
 {
-    "DFIntTimestepAwbitewThweshowdCFWThou": "0"
+    "DFIntTimestepArbiterThresholdCFLThou": "0"
 }
 ```
-### Crash R-Robwox 2
+### Crash Roblox 2
 ```json
 {
-    "DFFwagVideoCaptuweSewviceEnyabwed": "Fawse"
+    "DFFlagVideoCaptureServiceEnabled": "False"
 }
 ```
-### Incwease Ping 
+### Increase Ping 
 ```json
 {
-    "DFIntDataSendewMaxBandwidthBps": "-"150"
+    "DFIntDataSenderMaxBandwidthBps": "150"
 }
 ```
 
-# :icon-geaw: Debug
+# :icon-gear: Debug
 
-### Wepwace all Decaws with a Test Image 
+### Replace all Decals with a Test Image 
 @.rbx.bloxy
 ```json
 {
-    "-"FFwagDebugTestImageDwawItem": "Twue"
+    "FFlagDebugTestImageDrawItem": "True"
 }
 ```
-### Shows the *boops your nose* state of a fwag
+### Shows the state of a flag
 ```json
 {
-    "FStringDebugShowFlagState": "FWAG_HEWE"
+    "FStringDebugShowFlagState": "FLAG_HERE"
 }
 ```
 #### e.g
 ```json
 {
-    "FStringDebugShowFlagState": "DFIntTaskScheduwewTawgetFps, ChannewNyame"
+    "FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName"
 }
 ```
-### Show Outwined Chunks
+### Show Outlined Chunks
 ```json
 {
-    "FFwagDebugWightGwidShowChunks": "Twue"
+    "FFlagDebugLightGridShowChunks": "True"
 }
 ```
-### Show Outwined Chunks that awe b-being intewacted
+### Show Outlined Chunks that are being interacted
 ```json
 {
-    "DFFwagDebugEnabweStweamingSowvewVisuawization": "Twue"
+    "DFFlagDebugEnableStreamingSolverVisualization": "True"
 }
 ```
-### Pwevents Wemote Events fwom wunnying
-@spectwoscopic
+### Prevents Remote Events from running
+@spectroscopic
 ```json
 {
-    "DFIntWemoteEventSingweInvocationSizeWimit": "1"
+    "DFIntRemoteEventSingleInvocationSizeLimit": "1"
 }
 ```
-### Show Aww >w< Ewwow Stwings
+### Show All Error Strings
 ```json
 {
-    "FFwagDebugEnyabweEwwowStwingTesting": "Twue"
+    "FFlagDebugEnableErrorStringTesting": "True"
 }
 ```
-### wogs stuff in dev consowe
+### logs stuff in dev console
 ```json
 {
- ^-^    "-"FStwingDebugLuaLogLevew": "vewbose",
-    "FStwingDebugWuaWogPattewn": "ExpChat/mountCwientApp"
+    "FStringDebugLuaLogLevel": "verbose",
+    "FStringDebugLuaLogPattern": "ExpChat/mountClientApp"
 }
 ```
-### Octwee Vawidation
+### Octree Validation
 ```json
 {
-    "FFwagDebugEnyabweOctweeVawidation": "Twue"
+    "FFlagDebugEnableOctreeValidation": "True"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 1
+### Self Explanatory 1
 ```json
 {
-    "DFFwagDebugPwintDataPingBweakDown": "Twue"
+    "DFFlagDebugPrintDataPingBreakDown": "True"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 2
+### Self Explanatory 2
 ```json
 {
-    "DFFwagDebugAudioWogging": "Twue"
+    "DFFlagDebugAudioLogging": "True"
 }
 ```
 ### Duplicate of Above
 ```json
 {
-    "DFFwagDebugAudioWogging2": "Twue"
+    "DFFlagDebugAudioLogging2": "True"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 3
+### Self Explanatory 3
 ```json
 {
-    "FFwagTwackewWodContwowwewDebugUI": "Twue"
+    "FFlagTrackerLodControllerDebugUI": "True"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 4
-> ÚwÚ [!NyOTE]
-> **Disabwe Dwag Detectows**
+### Self Explanatory 4
+> [!NOTE]
+> **Disable Drag Detectors**
 ```json
 {
-    "FFwagDwagDetectows1": "Fawse"
+    "FFlagDragDetectors1": "False"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 5
-> [!NyOTE]
-> **Disabwe CTM Cwimbing**
+### Self Explanatory 5
+> [!NOTE]
+> **Disable CTM Climbing**
 ```json
 {
-    "FFwagUsewCwickToMuvSuppowtAgentCanCwimb2": "Fawse"
+    "FFlagUserClickToMoveSupportAgentCanClimb2": "False"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 6
-> ÚwÚ [!NyOTE]
-> **Disabwe Feedback *cries* Button in ESC**
+### Self Explanatory 6
+> [!NOTE]
+> **Disable Feedback Button in ESC**
 ```json
 {
-    "FFwagDisabweFeedbackSoothsayewCheck": "Fawse"
+    "FFlagDisableFeedbackSoothsayerCheck": "False"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 7
-@thefwenchguy4
+### Self Explanatory 7
+@thefrenchguy4
 ```
 {
-    "FFwagWenyamePassesAndGeawToSubscwiptionsAndPasses": "Fawse"
+    "FFlagRenamePassesAndGearToSubscriptionsAndPasses": "False"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 8
+### Self Explanatory 8
 ```json
 {
-    "DFFlagDebugSimulateHangAtStartup": "Twue"
+    "DFFlagDebugSimulateHangAtStartup": "True"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 9
+### Self Explanatory 9
 ```json
 {
-    "DFFlagDebugSimulateHangAtShutdown": "Twue"
+    "DFFlagDebugSimulateHangAtShutdown": "True"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 10
-> [!NyOTE]
-> **WDW Pwogwam Stats**
+### Self Explanatory 10
+> [!NOTE]
+> **LDL Program Stats**
 ```json
 {
-    "DFFwagDebugSimWDWPwogwamPwintBuiwdStats": "Twue",
-    "DFFwagDebugSimWDWPwogwamPwintExecStats": "Twue"
+    "DFFlagDebugSimLDLProgramPrintBuildStats": "True",
+    "DFFlagDebugSimLDLProgramPrintExecStats": "True"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 11
+### Self Explanatory 11
 ```json
 {
-    "FFwagDebugCountSimBodyAwwocations": "Twue"
+    "FFlagDebugCountSimBodyAllocations": "True"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 12
+### Self Explanatory 12
 ```json
 {
-    "FIntNyewDevConsoweMaxWogCount": "2147483647"
+    "FIntNewDevConsoleMaxLogCount": "2147483647"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 13
+### Self Explanatory 13
 ```json
 {
-    "FFwagDebugAwwaysDispwayWendewStats": "Twue"
+    "FFlagDebugAlwaysDisplayRenderStats": "True"
 }
 ```
-### S-S-Sewf Expwanatowy ÚwÚ 13
-###### set to 0 fow the *boops your nose* supew fps boost t-twust it wowks
-> [!NyOTE]
-> **Defauwt *sweats* vawue is 650, higher vawue mowe usage wowew vawue wess**
+### Self Explanatory 13
+###### set to 0 for the super fps boost trust it works
+> [!NOTE]
+> **Default value is 650, higher value more usage lower value less**
 ```json
 {
-    "FIntWendewMaxShadowAtwasUsageBefoweDownscawe": "650"
+    "FIntRenderMaxShadowAtlasUsageBeforeDownscale": "650"
 }
 ```
-### *boops your nose* S-S-Sewf Expwanatowy ÚwÚ 14
-> [!NyOTE]
-> Awwows you to edit the *boops your nose* DataModew Patch
+### Self Explanatory 14
+> [!NOTE]
+> Allows you to edit the DataModel Patch
 ```json
 {
-    "FFwagDataModewPatchewFowceWocaw": "Twue"
+    "FFlagDataModelPatcherForceLocal": "True"
 }
 ```
