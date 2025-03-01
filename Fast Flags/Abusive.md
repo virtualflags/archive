@@ -1,297 +1,297 @@
 ---
-titwe: Abwusive
+title: Abusive
 icon: alert-fill
 order: -7
 ---
-### Tewepowt ^-^ Aww >w< Wagdowws/Unyanchowed to 0, 0, 0
-> [!NyOTE]
-> Cwientsided
+### Teleport All Ragdolls/Unanchored to 0, 0, 0
+> [!NOTE]
+> Clientsided
 ```json
 {
-    "DFIntGameNyetWocawSpaceMaxSendIndex": "-"-"10000"
+    "DFIntGameNetLocalSpaceMaxSendIndex": "10000"
 }
 ```
-### Nyo Knyockback/Wagdoww
+### No Knockback/Ragdoll
 ```json
 {
-    "DFIntGameNyetWocawSpaceMaxSendIndex": "100000",
-    "DFIntPhysicsImpwuvdCycwicExecutiveThwottweThweshowdTenth": "0"
+    "DFIntGameNetLocalSpaceMaxSendIndex": "100000",
+    "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "0"
 }
 ```
 ### Tool Desync
 ```json
 {
-    "DFIntSimBwockWawgeWocawToowWewdManyipuwationsThweshowd": "-"-1"
+    "DFIntSimBlockLargeLocalToolWeldManipulationsThreshold": "-1"
 }
 ```
-### Wemap W6 to W15 Wigs/Weird ;;w;; Muvment
+### Remap R6 to R15 Rigs/Weird Movement
 ```json
 {
-    "FFwagWemapAnyimationW6ToW15Wig": "Twue"
+    "FFlagRemapAnimationR6ToR15Rig": "True"
 }
 ```
-### Weiwd Weg Muvment
+### Weird Leg Movement
 ```json
 {
-    "DFFwagAnyimatowPostPwocessIK": "Twue"
+    "DFFlagAnimatorPostProcessIK": "True"
 }
 ```
-### Adjust *looks at you* Hip >w< Height Cwamps
+### Adjust Hip Height Clamps
 ```json
 {
- *screams*    "DFIntHipHeightCwamp": "-48"
+    "DFIntHipHeightClamp": "-48"
 }
 ```
-### Wandom High Jumps
+### Random High Jumps
 ```json
 {
-    "FFwagSimAdaptiveTimesteppingDefauwt2": "Twue",
-    "DFFwagSimHumanoidTimestepModewUpdate": "Twue"
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True"
 }
 ```
-### Dwunk
+### Drunk
 ```json
 {
-    "FFwagSimAdaptiveTimesteppingDefauwt2": "Twue",
-    "DFIntSimAdaptiveHumanyoidPDContwowwewSubstepMuwtipwiew": "-999999",
-    "DFFwagSimHumanoidTimestepModewUpdate": "Twue"
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True"
 }
 ```
-### Nyo Anyimations ✨
-> ^-^ [!NyOTE]
-> **Stops the *boops your nose* game fwom twying to wepwicate ^-^ youw anyimations in the *boops your nose* sewvew. You dont have anyimations in the *boops your nose* sewvew but you do fow youw client**
+### No Animations ✨
+> [!NOTE]
+> **Stops the game from trying to replicate your animations in the server. You dont have animations in the server but you do for your client**
 ```json
 {
-    "DFIntWepwicatowAnyimationTwackWimitPewAnyimatow": "-"-1"
+    "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
 }
 ```
-### D-Dewayed Anyimations
+### Delayed Animations
 ```json
 {
-    "FFwagPwocessAnyimationWooped": "Fawse"
+    "FFlagProcessAnimationLooped": "False"
 }
 ```
-### Stick unanchowed pawts to you
+### Stick unanchored parts to you
 > [!TIP]
 > **- = up, + = down**
 ```json
 {
-    "DFIntSowidFwoowPewcentFowceAppwication": "-1000",
+    "DFIntSolidFloorPercentForceApplication": "-1000",
     "DFIntNonSolidFloorPercentForceApplication": "-5000"
 }
 ```
-### Max Waycast Distance
-> (・`ω´・) [!NyOTE]
-> **Waycasting is the *boops your nose* use of intewsection tests to sowve pwobwems in Wobwox. T-The most common *whispers to self* use of waycasting is to detewminye the *boops your nose* fiwst object intewsected by a way. This is donye by casting a viwtuaw w-way fwom a certain point in a d-diwection and determinying the *boops your nose* fiwst suwface it intewsected with.**
+### Max Raycast Distance
+> [!NOTE]
+> **Raycasting is the use of intersection tests to solve problems in Roblox. The most common use of raycasting is to determine the first object intersected by a ray. This is done by casting a virtual ray from a certain point in a direction and determining the first surface it intersected with.**
 
 > [!TIP]
-> **Bweak legs cowwision fwom 2 to -inf, kinda break camewa on vawues uvw 3 nyocwip cam on 3**
+> **Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip cam on 3**
 ```json
 {
-    "DFIntWaycastMaxDistance": "3"
+    "DFIntRaycastMaxDistance": "3"
 }
 ```
-### Possibwe Supew ^-^ J-Jump
+### Possible Super Jump
 ```json
 {
-    "DFIntNyewWunnyingBaseGravityWeductionFactorHundredth": ÚwÚ "-"1500"
+    "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
 }
 ```
-### Change DataSender Wate
-> [!NyOTE]
-> **A.k.a does nyot wet you load games**
+### Change DataSender Rate
+> [!NOTE]
+> **A.k.a does not let you load games**
 ```json
 {
-    "DFIntDataSendewWate": "-"-1"
+    "DFIntDataSenderRate": "-1"
 }
 ```
-### Disabwe Touch Events
+### Disable Touch Events
 ```json
 {
-    "DFIntTouchSendewMaxBandwidthBps": OwO "-"-1"
+    "DFIntTouchSenderMaxBandwidthBps": "-1"
 }
 ```
-### Fake Wag/Desync ✨
-i hate to caww it desync wow
+### Fake Lag/Desync ✨
+i hate to call it desync lol
 ```json
 {
- OwO    "DFIntS2PhysicsSenderRate": "1"
+    "DFIntS2PhysicsSenderRate": "1"
 }
 ```
-### Impwuvd Syncing
+### Improved Syncing
 ```json
 {
- ÚwÚ    "DFIntS2PhysicsSenderRate": "-"-"10000"
+    "DFIntS2PhysicsSenderRate": "10000"
 }
 ```
-### Invisibwe 1
-> [!NyOTE]
-> **Stops the *boops your nose* physics on youw chawactew fwoms s-s-sending to the *boops your nose* sewvew so youw chawactew doesn't muv *walks away* fow the *boops your nose* sewvew. You can muv *walks away* on youw cwient.**
+### Invisible 1
+> [!NOTE]
+> **Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.**
 ```json
 {
     "DFIntS2PhysicsSenderRate": "100000"
 }
 ```
-### Invisibwe 2 ✨
-> ^-^ [!NyOTE]
-> **Wocks youw chawactew's position on the *boops your nose* sewvew to (0, 0, 0), *notices buldge* having the *boops your nose* side effect of tuwnying you invisibwe. This onwy affects the *boops your nose* sewvew and othew cwients, nyot y-you. server-sided things that wewy on youw position, wike cwicking to get toows, wiww nyot function. In some games these can be abusabwe. Hewe is a list of them: [Wink](assets/lists/experiences/specific.md)**
+### Invisible 2 ✨
+> [!NOTE]
+> **Locks your character's position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable. Here is a list of them: [Link](assets/lists/experiences/specific.md)**
 ```json
 {
-    "DFIntGameNyetPVHeadewTwanswationZewoCutoffExponyent": "10"
+    "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
 }
 ```
-### Cwientsided Invisibwe
+### Clientsided Invisible
 ```json
 {
-    "FIntPawawwewDynyamicPawtsFastCwustewBatchSize": "-"-1"
+    "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
 }
 ```
-### Wawp & Slowmotion ✨
+### Warp & Slowmotion ✨
 ```json
 {
-    "DFIntMaxMissedWowwdStepsRemembewed": "1"
+    "DFIntMaxMissedWorldStepsRemembered": "1"
 }
 ```
 ```json
 {
-    "DFIntMaxMissedWowwdStepsRemembewed": "1000"
+    "DFIntMaxMissedWorldStepsRemembered": "1000"
 }
 ```
-### Swide on Wawws
+### Slide on Walls
 ```json
 {
-    "DFIntMaximumFweefawwMuvTimeInTenths": "-"2147483648"
+    "DFIntMaximumFreefallMoveTimeInTenths": "2147483648"
 }
 ```
 
-### Nyocwip 1
+### Noclip 1
 > [!TIP]
-> **Adjust the *boops your nose* vawue so you don't faww thwough the *boops your nose* gwound**
+> **Adjust the value so you don't fall through the ground**
 ```json
 {
-    "DFIntAssembwyExtentsExpansionStudHundwedth": "-50"
+    "DFIntAssemblyExtentsExpansionStudHundredth": "-50"
 }
 ```
-### Nyocwip 2
+### Noclip 2
 > [!TIP]
-> **Adjust the *boops your nose* vawue so you don't faww thwough the *boops your nose* gwound**
+> **Adjust the value so you don't fall through the ground**
 ```json
 {
-    "DFIntSimBwoadPhasePaiwCountMax": "50"
+    "DFIntSimBroadPhasePairCountMax": "50"
 }
 ```
-### Nyocwip 3/Mesh Nyocwip ✨
-@tyetonyix
+### Noclip 3/Mesh Noclip ✨
+@tyetonix
 ```json
 {
-    "DFIntPhysicsDecompFowceUpgwadeVewsion": ÚwÚ "-"1500"
+    "DFIntPhysicsDecompForceUpgradeVersion": "1500"
 }
 ```
-### Hip >w< Height ✨
-> ^-^ [!NyOTE]
-> **Vewy c-contwowwabwe bounce, onwy wowks with nyegative vawues**
+### Hip Height ✨
+> [!NOTE]
+> **Very controllable bounce, only works with negative values**
 
 > [!TIP]
-> **0 a-a-awwows you to huvw**
+> **0 allows you to hover**
 ```json
 {
-    "DFIntMaxAwtitudePDStickHipHeightPewcent": "-200"
+    "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
 }
 ```
-### W-Wawwgwide ✨
+### Wallglide ✨
 ```json
 {
-    "DFIntUnstickFowceAttackInTenths": "-4"
+    "DFIntUnstickForceAttackInTenths": "-4"
 }
 ```
-### Netwowk ^-^ O-Ownyewship
-> [!NyOTE]
-> bettew [netwowk ownyewship](https://cweate.wobwox.com/docs/physics/nyetwowk-ownyewship) of pawts
+### Network Ownership
+> [!NOTE]
+> better [network ownership](https://create.roblox.com/docs/physics/network-ownership) of parts
 
 > [!CAUTION]
-> **This m-might get you bannyed in some games with anticheats (Wimbobbia)**
+> **This might get you banned in some games with anticheats (Limbobbia)**
 ```json
 {
-    "DFIntMinCwientSimuwationWadius": ÚwÚ "2147000000",
-    "DFIntMinyimawSimWadiusBuffew": "2147000000",
-    "DFIntMaxCwientSimuwationWadius": "2147000000",
-    "DFFwagDebugPhysicsSendewDoesNyotShwinkSimWadius": *screams* "Twue",
-    "FFwagDebugUseCustomSimWadius": "Twue"
+    "DFIntMinClientSimulationRadius": "2147000000",
+    "DFIntMinimalSimRadiusBuffer": "2147000000",
+    "DFIntMaxClientSimulationRadius": "2147000000",
+    "DFFlagDebugPhysicsSenderDoesNotShrinkSimRadius": "True",
+    "FFlagDebugUseCustomSimRadius": "True"
 }
 ```
-### Swide on Tewwain/Meshes
-@tyetonyix & @amongusphobia
+### Slide on Terrain/Meshes
+@tyetonix & @amongusphobia
 ```json
 {
-    "-"DFIntSmoothTewwainPhysicsWayAabbSwop": "-9999",
-    "DFIntMaximumFweefawwMuvTimeInTenths": "2147483647"
+    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999",
+    "DFIntMaximumFreefallMoveTimeInTenths": "2147483647"
 }
 ```
-### Dwive Vehicwes Swow
+### Drive Vehicles Slow
  @tyetonix
 ```json
 {
-    "DFIntPhysicsImpwuvdCycwicExecutiveThwottweThweshowdTenth": "0"
+    "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "0"
 }
 ```
 
-# Abusive Visuaws
+# Abusive Visuals
 
-### Semi Fuwwbwight
+### Semi Fullbright
 ```json
 {
-    "FFwagFastGPULightCuwwing3": "Twue",
-    "FIntRendewShadowIntensity": "0",
-    "DFIntCuwwFactowPixewThweshowdShadowMapHighQuawity": "2147483647",
-    "DFIntCuwwFactowPixewThweshowdShadowMapWowQuawity": "2147483647",
-    "FFwagNyewWightAttenuation": "Twue",
-    "FIntWenderShadowmapBias": "-1",
- ÚwÚ    "DFFwagDebugPauseVoxewizew": "Twue"
+    "FFlagFastGPULightCulling3": "True",
+    "FIntRenderShadowIntensity": "0",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "FFlagNewLightAttenuation": "True",
+    "FIntRenderShadowmapBias": "-1",
+    "DFFlagDebugPauseVoxelizer": "True"
 }
 ```
-### Draws a ciwcwe undew avatars
+### Draws a circle under avatars
 ```json
 {
-    "FFwagDebugAvatawChatVisuawization": "Twue",
-    "FFwagEnyabweInGameMenyuChwomeABTest4": "Fawse",
-    "FFwagEnyabweInGameMenyuSongbiwdABTest": "Fawse"
+    "FFlagDebugAvatarChatVisualization": "True",
+    "FFlagEnableInGameMenuChromeABTest4": "False",
+    "FFlagEnableInGameMenuSongbirdABTest": "False"
 }
 ```
-### Humanyoid Outwinye
-> [!NyOTE]
-> **Dwaws an outwinye awound evewy pawt and evewy humanyoid**
+### Humanoid Outline
+> [!NOTE]
+> **Draws an outline around every part and every humanoid**
 ```json
 {
-    "DFFwagDebugDwawBwoadPhaseAABBs": "Twue"
+    "DFFlagDebugDrawBroadPhaseAABBs": "True"
 }
 ```
-### ffwag abuv *sees bulge* but mowe compwex
-> [!NyOTE]
-> **Dwaws an outwinye awound evewy body pawt**
+### fflag above but more complex
+> [!NOTE]
+> **Draws an outline around every body part**
 ```json
 {
-    "DFFwagDebugDwawBvhNyodes": "Twue"
+    "DFFlagDebugDrawBvhNodes": "True"
 }
 ```
-### Buggy ZPwanye Camewa ✨
+### Buggy ZPlane Camera ✨
 ```json
 {
-    "FIntCamewaFawZPwanye": "1"
+    "FIntCameraFarZPlane": "1"
 }
 ```
-### Adds an UI in game, which highwights any OwO pawt pwayew touches (wike gwound, Meshes *notices buldge* etc.). It's a nyon-functionying UI t-too. Also adds a b-b-bwue ciwcwe to youw h-humanoid.
+### Adds an UI in game, which highlights any part player touches (like ground, Meshes etc.). It's a non-functioning UI too. Also adds a blue circle to your humanoid.
 ```json
 {
-    "FFwagDebugHumanyoidWendewing": "Twue"
+    "FFlagDebugHumanoidRendering": "True"
 }
 ```
-### Xway ✨
-@tyetonyix
+### Xray ✨
+@tyetonix
 ```json
 {
-    "DFIntCuwwFactowPixewThweshowdMainViewHighQuawity": "10000",
-    "DFIntCuwwFactowPixewThweshowdMainViewWowQuawity": "10000",
-    "DFIntCuwwFactowPixewThweshowdShadowMapHighQuawity": "10000",
-    "DFIntCuwwFactowPixewThweshowdShadowMapWowQuawity": "10000"
+    "DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
+    "DFIntCullFactorPixelThresholdMainViewLowQuality": "10000",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "10000",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
 }
 ```
