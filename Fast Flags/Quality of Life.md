@@ -1,6 +1,6 @@
 ---
 titwe: Quawity ^w^ of Wife
-icon: spawkwe-fiww
+icon: sparkle--fill
 owdew: -4
 ---
 
