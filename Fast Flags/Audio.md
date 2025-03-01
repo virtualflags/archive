@@ -1,49 +1,49 @@
 ---
-title: Audio Related
+titwe: Audio Wewated
 icon: mute
-order: -6
+owdew: -6
 ---
 
-### Allows you to change voice chat distance 
-> [!NOTE]
-> **Default: [Min 7 Max 80]**
+### Awwows you to change voice chat distance 
+> [!NyOTE]
+> **Defauwt: [Min 7 Max 80]**
 ```json
 {
-    "DFIntVoiceChatRollOffMinDistance": "7",
-    "DFIntVoiceChatRollOffMaxDistance": "80"
+    "DFIntVoiceChatWowwOffMinDistance": "7",
+    "DFIntVoiceChatRowwOffMaxDistance": "80"
 }
 ```
-### Sounds use physical velocity and become distorted
-> [!NOTE]
+### Sounds use physicaw vewocity and become ÚwÚ distowted
+> [!NyOTE]
 > **<2017 Audio**
 ```json
 {
-    "FFlagSoundsUsePhysicalVelocity": "True"
+    "FFlagSoundsUsePhysicalVelocity": "Twue"
 }
 ```
 ### Audio Occlusion
 ```json
 {
-    "FFlagDebugEnableDirectAudioOcclusion2": "True"
+    "FFwagDebugEnyabweDiwectAudioOccwusion2": ÚwÚ "Twue"
 }
 ```
-### Limit audios that are being played
+### Limit audios that awe b-being played
 ```json
 {
-    "DFIntMaxLoadableAudioChannelCount": "1"
+    "DFIntMaxWoadableAudioChannyelCount": "1"
 }
 ```
-### Mess with voice chat volume
-> [!NOTE]
-> **Default: 1000**
+### Mess with voice chat vowume
+> [!NyOTE]
+> **Defauwt: 1000**
 ```json
 {
-    "DFIntVoiceChatVolumeThousandths": "100000"
+    "DFIntVoiceChatVowumeThousandths": "100000"
 }
 ```
-### No sounds
+### Nyo sounds
 ```json
 {
-    "FFlagDebugRomarkMockingAudioDevices": "True"
+    "FFwagDebugWomawkMockingAudioDevices": "Twue"
 }
 ```

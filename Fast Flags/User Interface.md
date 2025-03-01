@@ -1,187 +1,187 @@
 ---
-title: User Interface/Visuals
+titwe: Usew Intewface/Visuaws
 icon: versions
 order: -5
 ---
 
-### Red Font/Highlight Font
+### Wed F-Font/Highwight Font
 ```json
 {
-    "FStringDebugHighlightSpecificFont": "rbxasset://fonts/families/BuilderSans.json"
+    "FStwingDebugHighwightSpecificFont": "rbxasset://fonts/families/BuilderSans.json"
 }
 ```
-### New Report Menu
+### Nyew Wepowt Menyu
 ```json
 {
-  "FStringSelectInSceneReportMenuOverrideUserIds": "UserID"
+  "FStwingSewectInScenyeWepowtMenyuOvewwideUsewIds": "UsewID"
 }
 ```
-### Voicechat Mute Toggles
+### Voicechat Mute Toggwes
 ```json
 {
-    "FFlagMuteTogglesEnableIXP": "False"
+    "FFwagMuteToggwesEnyabweIXP": "Fawse"
 }
 ```
 ### 🍔
-> [!NOTE]
-> **Chrome UI only**
+> [!NyOTE]
+> **Chwome UI onwy**
 ```json
 {
-    "FFlagEnableHamburgerIcon": "True"
+    "FFwagEnyabweHambuwgewIcon": "Twue"
 }
 ```
-### Mini Webview
+### M-Minyi Webview
 ```json
 {
-    "FFlagWebViewProtocol": "False"
+    "FFwagWebViewPwotocow": "Fawse"
 }
 ```
 ### THICK Healthbar
 ```json
 {
-    "FFlagUpdateHealthBar": "True"
+    "FFwagUpdateHeawthBaw": "Twue"
 }
 ```
-### Remove Parental Controls Tab
+### Wemove Pawentaw Contwows Tab
 ```json
 {
-    "FFlagLuaAppsEnableParentalControlsTab": "False"
+    "FFwagWuaAppsEnyabwePawentawContwowsTab": "Fawse"
 }
 ```
-### Legacy Search
+### Wegacy Seawch
 ```json
 {
-    "FFlagAXSearchLandingPageIXPEnabled4": "False"
+ ^w^    "FFwagAXSeawchWandingPageIXPEnyabwed4": "Fawse"
 }
 ```
-### Disable Profile Picture Customization
+### Disabwe P-Pwofiwe Pictuwe *notices buldge* Customization
 ```json
 {
-     "FFlagAXDefaultAvatarToShopEnabled3": "False"
+     "FFwagAXDefauwtAvatawToShopEnyabwed3": "Fawse"
 }
 ```
-### old luaapp chat button
+### owd w-wuaapp chat button
 ```json
 {
-    "FStringNewChatTabExperimentLayerValue": "2024MUSIC"
+    "FStwingNyewChatTabExpewimentWayewVawue": "2024MUSIC"
 }
 ```
 ```
 {
-    "FFlagEnableNewChatTabExperiment5": "False"
+ *runs away*    "FFwagEnyabweNyewChatTabExpewiment5": "Fawse"
 }
 ```
-### Disable Toast Notifications
+### Disabwe Toast Nyotifications
 ```json
 {
-    "FFlagToastNotificationsProtocolEnabled2": "False"
+    "FFwagToastNyotificationsPwotocowEnabwed2": "Fawse"
 }
 ```
-### Rename Communications to Voice Enabled
+### Wenyame Communyications to Voice Enyabwed
 ```json
 {
-    "FFlagGameDetailsDecoupledCommunication": "False"
+    "FFwagGameDetaiwsDecoupwedCommunyication": "Fawse"
 }
 ```
-### Break Reduced Motion V4
+### Bweak Weduced Motion V4
 @kezcn
-![image](https://github.com/user-attachments/assets/cfdc9732-084e-4c09-bc43-8039a3bf0d89)
+![image](https://github.com/usew-attachments/assets/cfdc9732-084e-4c09-bc43-8039a3bf0d89)
 ```json
 {
-    "FFlagFixReducedMotionStuckIGM2": "False"
+    "FFwagFixWeducedMotionStuckIGM2": "Fawse"
 }
 ```
-### Revert "Charts" back to Discovery
+### Wevewt "Chawts" back to Discuvwy
 ```json
 {
-    "FFlagLuaAppChartsPageRenameIXP": "False"
+    "FFlagWuaAppChartsPageWenyameIXP": "Fawse"
 }
 ```
-### Disable Sidebar
+### Disabwe Sidebaw
 ```json
 {
-    "FFlagEnableNavBarLabels3": "False"
+    "FFwagEnyabweNyavBawWabews3": "Fawse"
 }
 ```
-### V2 Menu
+### V2 Menyu
 ```json
 {
-    "FIntNewInGameMenuPercentRollout3": "100",
-    "FFlagEnableInGameMenuControls": "False",
-    "FFlagDisableNewIGMinDUA": "True",
-    "FFlagEnableInGameMenuChromeABTest4": "False",
-    "FFlagEnableInGameMenuSongbirdABTest": "False"
+    "-"FIntNyewInGameMenyuPercentWollout3": "100",
+    "FFwagEnyabweInGameMenyuContwows": "Fawse",
+    "FFwagDisabweNyewIGMinDUA": "Twue",
+    "FFwagEnyabweInGameMenyuChwomeABTest4": "Fawse",
+    "FFwagEnyabweInGameMenyuSongbiwdABTest": "Fawse"
 }
 ```
-### Custom Disconnect Message
+### Custom Disconnyect Message
 ```json
 {
-    "FFlagReconnectDisabled": "True",
-    "FStringReconnectDisabledReason": "You're stupid and I hate you"
+    "FFwagWeconnyectDisabwed": "Twue",
+    "FStwingWeconnyectDisabwedWeason": "You'we stupid and I hate you"
 }
 ```
-### Display FPS
+### D-Dispway FPS
 ```json
 {
-    "FFlagDebugDisplayFPS": "True"
+    "FFwagDebugDispwayFPS": "Twue"
 }
 ```
-### Verified Badge
-> [!NOTE]
-> Clientsided only
+### Vewified B-Badge
+> [!NyOTE]
+> Cwientsided only
 ```json
 {
-    "FStringWhitelistVerifiedUserId": "UserID"
+    "FStwingWhitewistVewifiedUsewId": "UsewID"
 }
 ```
-### Verified Badge on everyone
-> [!NOTE]
-> Clientsided only
+### Vewified Badge on evewyonye
+> [!NyOTE]
+> Cwientsided only
 ```json
 {
-    "FFlagOverridePlayerVerifiedBadge": "True"
+    "FFwagOvewwidePwayewVewifiedBadge": "Twue"
 }
 ```
-### Applies cool colors to stuff
+### Appwies coow cowows to stuff
 ```json
 {
-    "FFlagDebugDisplayUnthemedInstances": "True"
+    "FFwagDebugDispwayUnthemedInstances": "Twue"
 }
 ```
-### Revert new invite menu
+### Wevewt nyew invite menyu
 ```json
 {
-    "FFlagEnableNewInviteMenuIXP2": "False"
+    "FFwagEnyabweNyewInviteMenyuIXP2": "Fawse"
 }
 ```
-### Revert spacing on errors
+### Wevewt spacing on ewwows
 ```json
 {
-    "FFlagErrorPromptResizesHeight": "False"
+    "-"FFlagErrorPromptWesizesHeight": "Fawse"
 }
 ```
-### Remove Disconnect Blur/Loading Blur
+### Wemove Disconnyect Bwuw/Woading Bwuw
 ```json
 {
-    "FIntRobloxGuiBlurIntensity": "0"
+    "-"-"FIntWobwoxGuiBwuwIntensity": "0"
 }
 ```
-### Disable New Chat Translation Settings
+### Disabwe Nyew Chat Twanswation Settings
 ```json
 {
-    "FFlagChatTranslationSettingEnabled3": "False"
+    "FFwagChatTwanswationSettingEnyabwed3": x3 "Fawse"
 }
 ```
-### New Camera Mode
+### Nyew Camewa Mode
 ```json
 {
-    "FFlagNewCameraControls": "True"
+    "FFwagNyewCamewaContwows": "Twue"
 }
 ```
-### Custom MicroProfile Scale
+### Custom M-M-MicwoPwofiwe Scawe
 ```json
 {
-    "DFIntMicroProfilerDpiScaleOverride":  "100"
+    "DFIntMicwoPwofiwewDpiScaweOvewwide":  "100"
 }
 ```
 ### Set Custom Font Size
@@ -190,273 +190,273 @@ order: -5
     "FIntFontSizePadding": "1"
 }
 ```
-### Adjust Scroll Speed
+### Adjust *looks at you* Scwoww Speed
 ```json
 {
-    "FIntScrollWheelDeltaAmount": "140"
+    "FIntScwowwWheewDewtaAmount": "140"
 }
 ```
-### Set Custom Kick Message Length
+### Set Custom Kick Message Wength
 ```json
 {
-    "FIntMaxKickMessageLength": "1"
+ ;;w;;    "FIntMaxKickMessageWength": "1"
 }
 ```
-### Darker Dark Theme
+### Dawkew Dawk Theme
 ```json
 {
-    "FFlagLuaAppUseUIBloxColorPalettes1": "True",
-    "FFlagUIBloxUseNewThemeColorPalettes": "True"
+ *screams*    "FFwagWuaAppUseUIBwoxCowowPawettes1": "Twue",
+    "FFwagUIBwoxUseNyewThemeCowowPawettes": "Twue"
 }
 ```
-### Ennable Blue Theme
+### Ennyabwe Bwue Theme
 ```json
 {
-    "FFlagLuaAppUseUIBloxColorPalettes1": "True",
-    "FFlagLuaAppEnableFoundationColors7": "True"
+ *screams*    "FFwagWuaAppUseUIBwoxCowowPawettes1": "Twue",
+    "FFlagLuaAppEnyableFoundationColors7": "Twue"
 }
 ```
-### Enable New Settings Layout
+### Enyabwe Nyew Settings Wayout
 ```json
 {
-    "FFlagInExperienceMenuReorderFirstVariant2": "True"
+    "FFwagInExpewienceMenyuWeowdewFiwstVawiant2": "Twue"
 }
 ```
-### No Transparency V4 Menu **(2023)**
+### Nyo Twanspawency V4 Menu **(2023)**
 ```json
 {
-    "FStringInGameMenuModernizationStickyBarForcedUserIds": "UserID"
+    "FStwingInGameMenyuModewnyizationStickyBawFowcedUsewIds": "UsewID"
 }
 ```
-### Subscriptions Page
+### Subscwiptions Page
 ```json
 {
-    "FFlagLuaAppDevSubsEnabled": "True"
+    "FFwagWuaAppDevSubsEnyabwed": "Twue"
 }
 ```
-### Overlay that shows what you type 
+### Ovewway that shows what you type 
 ```json
 {
-    "FFlagDebugTextBoxServiceShowOverlay": "True"
+    "FFwagDebugTextBoxSewviceShowOvewway": "Twue"
 }
 ```
-### Ammount of lines to show at once for above
+### Ammount of winyes to show at once fow abuv
 ```json
 {
-    "DFIntTextBoxServiceHistorySize": "1"
+    "DFIntTextBoxSewviceHistowySize": "1"
 }
 ```
 ### Hides gui
 ```json
 {
-    "FFlagDebugAdornsDisabled":  "True"
+    "FFwagDebugAdownsDisabwed":  "Twue"
 }
 ```
-### Dont Render UI
+### Dont Wendew UI
 ```json
 {
-    "FFlagDebugDontRenderUI": "True"
+    "FFwagDebugDontWendewUI": "Twue"
 }
 ```
-### Dont Render Screen GUIs
+### Dont Wendew Scween GUIs
 ```json
 {
-    "FFlagDebugDontRenderScreenGui": "True"
+    "FFwagDebugDontWendewScweenGui": "Twue"
 }
 ```
-### Disable Autocomplete
+### Disabwe A-A-Autocompwete
 ```json
 {
-    "FFlagEnableCommandAutocomplete": "False"
+    "FFwagEnyabweCommandAutocompwete": "Fawse"
 }
 ```
-### Break Top Bar Menu
+### Bweak Top Baw Menyu
 ```json
 {
-    "FStringNewInGameMenuForceds": "UserID",
-    "FFlagEnableInGameMenuChrome": "True"
+    "-"FStwingNyewInGameMenyuFowceds": "UsewID",
+    "FFwagEnyabweInGameMenyuChwome": "Twue"
 }
 ```
-### Break Collectible Icon
+### Bweak Cowwectibwe Icon
 ```json
 {
-    "FFlagDisplayCollectiblesIcon": "False"
+    "FFwagDispwayCowwectibwesIcon": "Fawse"
 }
 ```
-### Disable Bubble Chat
+### Disabwe Bubbwe Chat
 ```json
 {
-    "FFlagEnableBubbleChatFromChatService": "False"
+    "FFwagEnyabweBubbweChatFwomChatSewvice": "Fawse"
 }
 ```
-### Disable Camera & Selfview
+### Disabwe Camewa & S-Sewfview
 ```json
 {
-    "FFlagSelfieViewEnabled": "True"
+    "FFwagSewfieViewEnyabwed": "Twue"
 }
 ```
-### Disable Avatar Chat
+### Disabwe Avataw Chat
 ```json
 {
-    "FFlagAvatarChatServiceEnabled3": "False"
+    "FFwagAvatawChatSewviceEnyabwed3": "Fawse"
 }
 ```
-### Remove VC Beta Badge
+### Wemove VC Beta Badge
 ```json
 {
-    "FFlagVoiceBetaBadge": "False",
-    "FFlagTopBarUseNewBadge": "False",
-    "FFlagBetaBadgeLearnMoreLinkFormview": "False",
-    "FFlagControlBetaBadgeWithGuac": "False",
-    "FStringVoiceBetaBadgeLearnMoreLink": "null"
+    "FFlagVoiceBetaBadge": "Fawse",
+    "-"-"FFwagTopBawUseNyewBadge": "Fawse",
+    "FFwagBetaBadgeWeawnMoweWinkFowmview": "Fawse",
+    "FFwagContwowBetaBadgeWithGuac": "Fawse",
+    "FStwingVoiceBetaBadgeWeawnMoweWink": "nuww"
 }
 ```
-### VR Controller transparency
+### VR Controller t-twanspawency
 ```json
 {
-    "FIntVRTouchControllerTransparency": "0"
+    "FIntVWTouchContwowwewTwanspawency": "0"
 }
 ```
-### Disable VR Collision Fade
+### Disabwe VR Cowwision >w< Fade
 ```json
 {
-    "FFlagViewCollisionFadeToBlackInVR": "False"
+ *screams*    "FFwagViewCowwisionFadeToBwackInVR": "Fawse"
 }
 ```
-### Limit Videos Playing
+### Limit Videos Pwaying
 ```json
 {
-    "DFIntVideoMaxNumberOfVideosPlaying": "0"
+    "DFIntVideoMaxNyumbewOfVideosPwaying": "0"
 }
 ```
-### Disable DSA Reporting In-game
+### Disabwe DSA Weporting In-game
 @kezcn
 ```json
 {
-    "FFlagDSAIllegalContentReporting2": "False"
+    "FFwagDSAIwwegawContentWepowting2": "Fawse"
 }
 ```
-### Desktop App Dev Tools
-> [!IMPORTANT]
-> Only works on web view windows like profiles, Ctrl + Shift + I
+### Desktop App Dev Toows
+> [!IMPOWTANT]
+> Onwy wowks on web view windows *screeches* wike pwofiwes, Ctww + Shift + I
 ```json
 {
-    "FFlagDebugEnableNewWebView2DevTool": "True"
+    "FFwagDebugEnabweNyewWebView2DevToow": "Twue"
 }
 ```
-### Enable Events Tab/Change Events Tab URL
+### Enyabwe Events T-Tab/Change Events Tab UWW
 ```json
 {
-    "FFlagPlatformEventEnabled2": "True",
-    "FStringPlatformEventUrl": "AnyLinkHere"
+ *cries*    "FFwagPwatfowmEventEnyabwed2": "Twue",
+    "FStwingPwatfowmEventUww": "AnyWinkHere"
 }
 ```
-### Better Trackpad Scrolling
+### Bettew T-T-Twackpad Scwowwing
 ```json
 {
-    "FFlagBetterTrackpadScrolling": "True"
+    "FFwagBettewTwackpadScwowwing": "Twue"
 }
 ```
-### Reset Character instead of Respawn in Experience Menu
+### Weset Chawactew ^-^ instead of Wespawn in Expewience Menyu
 ```json
 {
-    "FFlagInExperienceMenuResetButtonTextToRespawn": "False"
+    "FFwagInExpewienceMenyuWesetButtonTextToWespawn": "Fawse"
 }
 ```
 
-# :icon-north-star: Experimental [remind me to make this a different section]
+# :icon-nyorth-star: Expewimentaw [wemind me to make this a diffewent section]
 
-### Voicechat in Party
-> [!NOTE]
-> Person(s) you want to party with **must** have both of these to be disabled otherwise they won't be able to hear you/speak
+### Voicechat in Pawty
+> [!NyOTE]
+> Pewson(s) you want to party with **must** have both of these to be disabwed othewwise they won't be abwe to heaw you/speak
 ```json
 {
-   "FFlagAXEnableMultiTryOnUI": "True"
+   "FFwagAXEnyabweMuwtiTwyOnUI": "Twue"
 }
 ```
-### New Experience Menu
+### Nyew Expewience Menyu
 ```json
 {
-    "FFlagRefactorInExpGameSettings": "True"
+    "FFlagRefactorInExpGameSettings": "Twue"
 }
 ```
-### Enable First Time User Experience for Chrome UI
+### Enyabwe Fiwst Time Usew Expewience fow Chrome UI
 ```json
 {
-    "FFlagEnableChromeFTUX": "True"
+    "FFlagEnyableChromeFTUX": "Twue"
 }
 ```
-### Enable Better Haptics
+### Enyabwe Bettew Haptics
 ```json
 {
-    "FFlagEnableBetterHapticsResultHandling": "True"
+    "FFwagEnyabweBettewHapticsWesuwtHandwing": "Twue"
 }
 ```
-### Old Chrome UI Topbar
+### Owd Chrome UI Topbaw
 ```json
 {
-    "FFlagEnableHamburgerIcon": "False",
-    "FFlagEnableUnibarV4IA": "False",
-    "FFlagEnableAlwaysOpenUnibar2": "False",
-    "FFlagUseNewUnibarIcon": "False",
-    "FFlagUseSelfieViewFlatIcon": "False",
-    "FFlagUnibarRespawn": "False",
-    "FFlagEnableChromePinIntegrations2": "False"
+    "FFwagEnyabweHambuwgewIcon": "Fawse",
+    "FFwagEnyabweUnyibawV4IA": "Fawse",
+    "FFwagEnyabweAwwaysOpenUnyibaw2": "Fawse",
+    "FFwagUseNyewUnibawIcon": "Fawse",
+    "FFwagUseSewfieViewFwatIcon": "Fawse",
+    "FFwagUnyibawWespawn": *twerks* "Fawse",
+    "FFwagEnyabweChwomePinIntegwations2": "Fawse"
 }
 ```
-### Extra + Left Healthbar on Chrome UI Topbar
+### Extwa + Weft Heawthbaw on Chrome UI Topbaw
 ```json
 {
-    "FFlagEnableUnibarMaxDefaultOpen": "True",
-    "FFlagUpdateHealthBar": "False",
-    "FFlagUseNewPinIcon": "False"
+    "FFwagEnyabweUnyibawMaxDefauwtOpen": "Twue",
+    "FFwagUpdateHeawthBaw": "Fawse",
+    "FFlagUseNyewPinIcon": "Fawse"
 }
 ```
-### Chrome UI Topbar Removal
+### Chrome UI Topbaw W-Wemovaw
 ```json
 {
-    "FFlagEnableInGameMenuChromeABTest4": "False"
-    "FFlagEnableInGameMenuSongbirdABTest": "False"
+    "FFwagEnyabweInGameMenyuChwomeABTest4": "Fawse"
+    "FFwagEnyabweInGameMenyuSongbiwdABTest": "Fawse"
 }
 ```
-### Hide playerlist close button on Chrome UI
+### Hide playerlist cwose button ;;w;; on Chrome UI
 ```json
 {
-    "FFlagDisablePlayerListDisplayCloseBtn": "True"
+    "FFwagDisabwePwayewWistDispwayCwoseBtn": "Twue"
 }
 ```
-### Self Explanatory i think
+### S-S-Sewf Expwanatowy ÚwÚ i think
 ```json
 {
-    "FFlagChromeUsePreferredTransparency": "True"
+    "FFwagChwomeUsePwefewwedTwanspawency": "Twue"
 }
 ```
 ### Pin Chat on Chrome UI
 ```json
 {
-    "FFlagEnableChromePinnedChat": "True"
+    "FFwagEnyabweChwomePinnyedChat": "Twue"
 }
 ```
-### Ragdoll Death Type
+### Wagdoww Death Type
 
-> [!IMPORTANT]
-> **Studio Only**
+> [!IMPOWTANT]
+> **Studio O-Onwy**
 
-> [!NOTE]
-> **I tried `Ragdoll` to see if anything would happen lol this is how i found this (found this long time ago)**
+> [!NyOTE]
+> **I twied `Wagdoww` to see if anything w-wouwd h-happen wow this is how i found this (found this wong time ago)**
 
 @burgerboxer
 ```json
 {
-    "DFStringDefaultAvatarDeathType": "Ragdoll"
+    "DFStwingDefauwtAvatawDeathType": "Wagdoww"
 }
 ```
-### crash__()
+### cwash__()
 
-> [!IMPORTANT]
-> **Studio Only**
+> [!IMPOWTANT]
+> **Studio Onwy**
 ```json
 {
-    "FFlagDebugCrashEnabled": "False"
+    "FFwagDebugCwashEnyabwed": "False"
 }
 ```
