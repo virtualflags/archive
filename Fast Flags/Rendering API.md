@@ -1,42 +1,42 @@
 ---
-titwe: Wendewing API
+title: Rendering API
 icon: cpu
-owdew: 0
+order: 0
 ---
 
-### OwO Metaw
-> [!IMPOWTANT]
-> **MacOS Onwy**
+### Metal
+> [!IMPORTANT]
+> **MacOS Only**
 ```json
 {
-    "FFwagDebugGwaphicsPwefewMetaw": "Twue"
+    "FFlagDebugGraphicsPreferMetal": "True"
 }
 ```
-### V-Vuwkan
+### Vulkan
 > [!CAUTION]
-> **Visuaw Bugs & Cwashes**
+> **Visual Bugs & Crashes**
 ```json
 {
-    "FFlagDebugGraphicsDisableDirect3D11": "Twue",
-    "-"FFwagDebugGwaphicsPwefewVuwkan": "Twue"
+    "FFlagDebugGraphicsDisableDirect3D11": "True",
+    "FFlagDebugGraphicsPreferVulkan": "True"
 }
 ```
-### OpenGW
+### OpenGL
 ```json
 {
-    "FFlagDebugGraphicsDisableDirect3D11": "Twue",
-    "FFwagDebugGwaphicsPwefewOpenGW": "Twue"
+    "FFlagDebugGraphicsDisableDirect3D11": "True",
+    "FFlagDebugGraphicsPreferOpenGL": "True"
 }
 ```
-### Diwect X ^w^ 10
+### Direct X 10
 ```json
 {
-    "FFwagDebugGwaphicsPwefewD3D11FW10": "Twue"
+    "FFlagDebugGraphicsPreferD3D11FL10": "True"
 }
 ```
-### Diwect X ^w^ 11
+### Direct X 11
 ```json
 {
-    "FFwagDebugGwaphicsPwefewD3D11": "Twue"
+    "FFlagDebugGraphicsPreferD3D11": "True"
 }
 ```
