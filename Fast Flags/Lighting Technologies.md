@@ -1,36 +1,36 @@
 ---
-titwe: Wightnying Technyowogies
+title: Lightning Technologies
 icon: light-bulb
-owdew: -1
+order: -1
 ---
-### Voxew Lighting (Phase 1)
+### Voxel Lighting (Phase 1)
 ```json
 {
-    "DFFwagDebugWendewFowceTechnyowogyVoxew": "Twue"
+    "DFFlagDebugRenderForceTechnologyVoxel": "True"
 }
 ```
 ### Shadowmap Lighting (Phase 2)
 ```json
 {
-    "FFwagDebugFowceFutuweIsBwightPhase2": "Twue"
+    "FFlagDebugForceFutureIsBrightPhase2": "True"
 }
 ```
-### Futuwe Lighting (Phase 3-3)
+### Future Lighting (Phase 3)
 ```json
 {
-    "FFwagDebugFowceFutuweIsBwightPhase3": "Twue"
+    "FFlagDebugForceFutureIsBrightPhase3": "True"
 }
 ```
-### Unyified *starts twerking* Wighting
+### Unified Lighting
 ```json
 {
-    "FFwagWendewUnyifiedWighting12": "Twue",
-    "FFwagUnyifiedWightingBetaFeatuwe": "Twue"
+    "FFlagRenderUnifiedLighting12": "True",
+    "FFlagUnifiedLightingBetaFeature": "True"
 }
 ```
-### Unyified *starts twerking* Lighting Bwendzonye
+### Unified Lighting Blendzone
 ```json
 {
-    "FIntUnyifiedWightingBwendZonye": "-"500"
+    "FIntUnifiedLightingBlendZone": "500"
 }
 ```
