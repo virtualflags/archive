@@ -1,337 +1,337 @@
 ---
-titwe: Gwaphicaw Settings
+title: Graphical Settings
 icon: device-desktop
-owdew: -3
+order: -3
 ---
 
-### Set how many pixews to wendew
+### Set how many pixels to render
 ```json
 {
-    "-"DFIntDebugDynyamicWendewKiwoPixews": "1"
+    "DFIntDebugDynamicRenderKiloPixels": "1"
 }
 ```
-### Disabwe Highwights 
+### Disable Highlights 
 ```json
 {
-    "DFFlagWenderHighlightManyagerPrepare": "Twue"
+    "DFFlagRenderHighlightManagerPrepare": "True"
 }
 ```
-### Enyabwe DWS
+### Enable DRS
 ```json
 {
-    "FFwagWendewDynyamicWesowutionScawe12": "Twue"
+    "FFlagRenderDynamicResolutionScale12": "True"
 }
 ```
-### Muv Pwe-Wendew Phase [~25% Performance Boost]
-==- :icon-question: View Fuww D-Documentation 
-> [!IMPOWTANT]  
-> This FastFwag muvs the *boops your nose* Pwe-Wendew task to an off t-thwead aftew all othew tasks awe compweted. By defauwt, Pwe-Wendew wuns ÚwÚ fiwst, f-fowcing the *boops your nose* wendew t-thwead to wait untiw the *boops your nose* Pwe-Wendew process finyishes befowe it can stawt wendewing a f-fwame.
+### Move Pre-Render Phase [~25% Performance Boost]
+==- :icon-question: View Full Documentation 
+> [!IMPORTANT]  
+> This FastFlag moves the Pre-Render task to an off thread after all other tasks are completed. By default, Pre-Render runs first, forcing the render thread to wait until the Pre-Render process finishes before it can start rendering a frame.
 
-> [!NyOTE]
-> W-With this FastFwag enyabwed, Pwe-Wendewew is executed whiwe the *boops your nose* main t-thwead is pwocessing the *boops your nose* pwevious fwame. ÚwÚ This a-a-adjustment a-a-awwows the *boops your nose* main t-thwead to pwoceed without waiting fow Pwe-Wendewew, weading to incweased f-fwamewates at the *boops your nose* expense of some fwame ;;w;; watency.
+> [!NOTE]
+> With this FastFlag enabled, Pre-Renderer is executed while the main thread is processing the previous frame. This adjustment allows the main thread to proceed without waiting for Pre-Renderer, leading to increased framerates at the expense of some frame latency.
 
 > [!TIP]
-> This fwag is most effective in CPU-bound scenyawios.
+> This flag is most effective in CPU-bound scenarios.
 
 > [!CAUTION]
-> Enyabwing this FastFwag may wead to input wag & cwashes
+> Enabling this FastFlag may lead to input lag & crashes
 ===
 ```json
 {
-    "FFlagMuvPrerender": "Twue"
+    "FFlagMovePrerender": "True"
 }
 ```
-### Incweased Gwass Motion & Nyo Gwass Motion
+### Increased Grass Motion & No Grass Motion
 ```json
 {
-    "FIntGwassMuvmentWeducedMotionFactow": "999"
+    "FIntGrassMovementReducedMotionFactor": "999"
 }
 ```
 ```json
 {
-    "FIntGwassMuvmentWeducedMotionFactow": "0"
+    "FIntGrassMovementReducedMotionFactor": "0"
 }
 ```
-### Enyabwe Highwight Outwines on any OwO Wendewing API
+### Enable Highlight Outlines on any Rendering API
 ```json
 {
-    "FFwagHighwightOutwinyesOnMobiwe": "Twue"
+    "FFlagHighlightOutlinesOnMobile": "True"
 }
 ```
-### Nyo Bwoom/Cwouds
-@buwgewboxew
+### No Bloom/Clouds
+@burgerboxer
 ```json
 {
-    "FFwagRendewNyoLowFwmBwoom": "Fawse"
+    "FFlagRenderNoLowFrmBloom": "False"
 }
 ```
-### Wendew Occwusion Cuwwing
-[@CwonyeTwoopew1019](https://x.com/MaximumADHD/status/1832331711486865769)
+### Render Occlusion Culling
+[@CloneTrooper1019](https://x.com/MaximumADHD/status/1832331711486865769)
 ```json
 {
- UwU    "DFFwagUseVisBugChecks": "Twue",
-    "-"FFwagEnyabweVisBugChecks27": "Twue",
-    "FFwagVisBugChecksThweadYiewd": "Twue",
-    "FIntEnyabweVisBugChecksHundwedthPewcent27": "100"
+    "DFFlagUseVisBugChecks": "True",
+    "FFlagEnableVisBugChecks27": "True",
+    "FFlagVisBugChecksThreadYield": "True",
+    "FIntEnableVisBugChecksHundredthPercent27": "100"
 }
 ```
-### Incweased Pawticwes on wow gwaphics
-@teeenyoob
+### Increased Particles on low graphics
+@teeenoob
 ```json
 {
-    "-"FFwagDebugDetewministicPawticwes" : "Twue"
+    "FFlagDebugDeterministicParticles" : "True"
 }
 ```
-### Makes stuff swightwy bwightew
+### Makes stuff slightly brighter
 ```json
 {
-    "FFwagWendewFixFog": "Twue"
+    "FFlagRenderFixFog": "True"
 }
 ```
-### HypewThweading
+### HyperThreading
 ```json
 {
-    "-"-"FFwagDebugCheckWendewThweading": "Twue",
-    "FFwagWendewDebugCheckThweading2": "Twue"
+    "FFlagDebugCheckRenderThreading": "True",
+    "FFlagRenderDebugCheckThreading2": "True"
 }
 ```
-### Maximum Thweads
+### Maximum Threads
 ```json
 {
-    "FIntWuntimeMaxNyumOfThweads": "2400"
+    "FIntRuntimeMaxNumOfThreads": "2400"
 }
 ```
-### Minimum Thweads
+### Minimum Threads
 ```json
 {
-    "FIntTaskScheduwewThweadMin": "3"
+    "FIntTaskSchedulerThreadMin": "3"
 }
 ```
-### Smoother Tewwain
+### Smoother Terrain
 ```json
 {
-    "FFwagDebugRendewingSetDetewminyistic": "Twue"
+    "FFlagDebugRenderingSetDeterministic": "True"
 }
 ```
-### Fowce Gwaphics Quawity ^w^ Wevel
+### Force Graphics Quality Level
 ```json
 {
-    "FIntWomawkStawtWithGwaphicQuawityWevew": "1"
+    "FIntRomarkStartWithGraphicQualityLevel": "1"
 }
 ```
-### Disabwe Pwayew Shadows
+### Disable Player Shadows
 ```json
 {
-    "FIntRendewShadowIntensity": "0"
+    "FIntRenderShadowIntensity": "0"
 }
 ```
-### Disabwe Shadows
+### Disable Shadows
 ```json
 {
-    "DFIntCuwwFactowPixewThweshowdShadowMapHighQuawity": "2147483647",
-    "DFIntCuwwFactowPixewThweshowdShadowMapWowQuawity": "2147483647"
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647"
 }
 ```
-### P-P-Pwesewve wendewing quawity with display setting
+### Preserve rendering quality with display setting
 ```json
 {
-    "DFFwagDisabweDPIScawe": "Twue"
+    "DFFlagDisableDPIScale": "True"
 }
 ```
-### W-Wow Gwaphics Quawity ^w^ w/ Max Wendew Distance/FWM Quawity ^w^ Levews
+### Low Graphics Quality w/ Max Render Distance/FRM Quality Levels
 > [!TIP]
-> **1-6 Awe wow gwaphics, Abuv 6 awe high gwaphics. Wike the *boops your nose* 1-21 x3 gwaphics swidew**
+> **1-6 Are low graphics, Above 6 are high graphics. Like the 1-21 graphics slider**
 ```json
 {
-    "DFIntDebugFWMQuawityWevewOvewwide": "1"
+    "DFIntDebugFRMQualityLevelOverride": "1"
 }
 ```
 
-### F-FWM 21 Gwaphics Quawity ^w^ Slider
+### FRM 21 Graphics Quality Slider
 ```json
 {
-    "FFwagCommitToGwaphicsQuawityFix": "Twue",
-    "FFlagFixGraphicsQuality": "Twue"
+    "FFlagCommitToGraphicsQualityFix": "True",
+    "FFlagFixGraphicsQuality": "True"
 }
 ```
-### W-Wow Wendew Distance
+### Low Render Distance
 ```json
 {
- UwU    "DFIntDebugWestwictGCDistance": "1"
+    "DFIntDebugRestrictGCDistance": "1"
 }
 ```
-### Wimits wight updates
+### Limits light updates
 ```json
 {
- *sees bulge*    "FIntWendewWocawWightUpdatesMax": *huggles tightly* "8",
-    "FIntWendewWocawWightUpdatesMin": "6"
+    "FIntRenderLocalLightUpdatesMax": "8",
+    "FIntRenderLocalLightUpdatesMin": "6"
 }
 ```
-### Disabwes fade in and fade out anyimation OwO evewy wight update
+### Disables fade in and fade out animation every light update
 ```json
 {
-    "-"FIntWendewWocawWightFadeInMs": "0"
+    "FIntRenderLocalLightFadeInMs": "0"
 }
 ```
-### Makes avataws s-shiny
-==- :icon-question: View D-Documentation 
+### Makes avatars shiny
+==- :icon-question: View Documentation 
 > [!TIP]
-> **Everything goes bwack on bewow <3**
+> **Everything goes black on below <3**
 
-> [!NyOTE]
-> **DFIntDebugFWMQualityWevelOverride is there to set youw gwaphics to 3 baws**
+> [!NOTE]
+> **DFIntDebugFRMQualityLevelOverride is there to set your graphics to 3 bars**
 
 > [!TIP]
-> **You can change it to anything abuv *sees bulge* 3**
+> **You can change it to anything above 3**
 ===
 ```json
 {
-    "DFIntWendewCwampWoughnyessMax": "-640000000",
- OwO    "DFIntDebugFWMQuawityWevewOvewwide": "6"
+    "DFIntRenderClampRoughnessMax": "-640000000",
+    "DFIntDebugFRMQualityLevelOverride": "6"
 }
 ```
-### Disabwe PostFX
+### Disable PostFX
 ```json
 {
-    "FFwagDisabwePostFx": "Twue"
+    "FFlagDisablePostFx": "True"
 }
 ```
-### Pause Voxewizew/Disabwe UwU Baked Shadows
+### Pause Voxelizer/Disable Baked Shadows
 ```json
 {
-    "DFFwagDebugPauseVoxewizew": "Twue"
+    "DFFlagDebugPauseVoxelizer": "True"
 }
 ```
-### Gway Sky
-> [!IMPOWTANT]
-> **Onwy applies to games with the *boops your nose* default skybox**
+### Gray Sky
+> [!IMPORTANT]
+> **Only applies to games with the default skybox**
 ```json
 {
-    "FFwagDebugSkyGway": "Twue"
+    "FFlagDebugSkyGray": "True"
 }
 ```
-### Fowce LOD on Meshes
+### Force LOD on Meshes
 ```json
 {
-    "DFIntCSGWevewOfDetaiwSwitchingDistance": "0",
-    "DFIntCSGWevewOfDetaiwSwitchingDistanceW12": "0",
-    "DFIntCSGWevewOfDetaiwSwitchingDistanceW23": "0",
-    "DFIntCSGWevewOfDetaiwSwitchingDistanceW34": "0"
+    "DFIntCSGLevelOfDetailSwitchingDistance": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0"
 }
 ```
-### Lighting Attenyuation
+### Lighting Attenuation
 ```json
 {
-    "FFwagNyewWightAttenuation": "Twue"
+    "FFlagNewLightAttenuation": "True"
 }
 ```
-### Enyabwe GPUWightCuwwing
+### Enable GPULightCulling
 > [!TIP]
-> **Combine with [Wighting Attenyuation](https://FastFlags/FastFlags-Collective/?tab=readme-ov-file#lighting-attenyuation) fow bettew vision**
+> **Combine with [Lighting Attenuation](https://FastFlags/FastFlags-Collective/?tab=readme-ov-file#lighting-attenuation) for better vision**
 ```json
 {
-    "FFwagFastGPULightCuwwing3": "Twue"
+    "FFlagFastGPULightCulling3": "True"
 }
 ```
-### Enyabwe CPUWightCuwwing
+### Enable CPULightCulling
 ```json
 {
-    "FFwagDebugFowceFSMCPUWightCuwwing": "Twue"
+    "FFlagDebugForceFSMCPULightCulling": "True"
 }
 ```
-### Fwame Buffew
+### Frame Buffer
 > [!TIP]
-> **0 makes white scween 1-3 makes othew players have waggy muvment, 4 is stabwe has bettew pewfowmance than 10 and wess *screeches* input wag**
+> **0 makes white screen 1-3 makes other players have laggy movement, 4 is stable has better performance than 10 and less input lag**
 ```json
 {
-    "DFIntMaxFwameBuffewSize": "4"
+    "DFIntMaxFrameBufferSize": "4"
 }
 ```
-### W-Wow Quawwity Tewwain Textuwes
+### Low Quallity Terrain Textures
 > [!TIP]
-> **4 *cries* fow wess *screeches* quawity 16, 32, 64 fow higher quawity**
+> **4 for less quality 16, 32, 64 for higher quality**
 ```json
 {
-    "FIntTewwainAwwaySwiceSize": "4"
+    "FIntTerrainArraySliceSize": "4"
 }
 ```
-### Fowce Textuwe Quawity ^w^ 
+### Force Texture Quality 
 > [!TIP]
-> **Set any OwO vawue fwom 0-3**
+> **Set any value from 0-3**
 ```json
 {
-    "DFFwagTextuweQuawityOvewwideEnyabwed": "Twue",
-    "DFIntTextuweQuawityOvewwide": "3"
+    "DFFlagTextureQualityOverrideEnabled": "True",
+    "DFIntTextureQualityOverride": "3"
 }
 ```
-### Wowew *sweats* Quawity ^w^ Textuwes
+### Lower Quality Textures
 ```json
 {
-    "DFIntPewfowmanceContwowTextuweQuawityBestUtiwity": "-"-1"
+    "DFIntPerformanceControlTextureQualityBestUtility": "-1"
 }
 ```
-### Nyo avataw textuwes
+### No avatar textures
 ```json
 {
- ^-^    "DFIntTextureCompositorActiveJobs": "0"
+    "DFIntTextureCompositorActiveJobs": "0"
 }
 ```
-### Textuwe Manyagew
+### Texture Manager
 > [!TIP]
-> 1-4 Bwuwwy, 5-7 *walks away* wow quawity awso remuvs studs, 8 Wemuvs a-awmost evewything
+> 1-4 Blurry, 5-7 low quality also removes studs, 8 Removes almost everything
 ```json
 {
-    "FIntDebugTextuweManyagewSkipMips": "-"-1"
+    "FIntDebugTextureManagerSkipMips": "-1"
 }
 ```
-### Wemove Grass
+### Remove Grass
 ```json
 {
-    "FIntFWMMinGwassDistance": "0",
-    "FIntFWMMaxGwassDistance": "0",
-    "FIntWendewGwassDetaiwStwands": "0",
+    "FIntFRMMinGrassDistance": "0",
+    "FIntFRMMaxGrassDistance": "0",
+    "FIntRenderGrassDetailStrands": "0",
 }
 ```
-### Fowce MSAA 
-> [!IMPOWTANT]
+### Force MSAA 
+> [!IMPORTANT]
 > **Values: 0, 1, 2, 4, 8**
 
-> >w< [!CAUTION]
-> **Vawues uvw 4> wiww cause viewpowt bugs**
+> [!CAUTION]
+> **Values over 4> will cause viewport bugs**
 ```json
 {
-    "FIntDebugFowceMSAASampwes": "4"
+    "FIntDebugForceMSAASamples": "4"
 }
 ```
-### ShadowMap :3 Bias 
-> [!IMPOWTANT]
-> *-*-**Futuwe & ShadowMap :3 onwy**
+### ShadowMap Bias 
+> [!IMPORTANT]
+> **Future & ShadowMap only**
 ```json
 {
-    "FIntWenderShadowmapBias": "75"
+    "FIntRenderShadowmapBias": "75"
 }
 ```
-### Wimits nyumbew of anyimations b-being pwayed
+### Limits number of animations being played
 > [!TIP]
-> **0 remuvs most pwayew anyimations, 1-5 remuvs the *boops your nose* w-w-wawk anyimation OwO aftew jumping**
+> **0 removes most player animations, 1-5 removes the walk animation after jumping**
 ```json
 {
-    "DFIntMaxActiveAnyimationTwacks": "0"
+    "DFIntMaxActiveAnimationTracks": "0"
 }
 ```
-### Vewtex Smoothing Gwoup Towewance
-> [!NyOTE]
-> pwacebo!!11 nyot tested by me
+### Vertex Smoothing Group Tolerance
+> [!NOTE]
+> placebo? not tested by me
 ```json
 {
-    "FIntVewtexSmoothingGwoupTowewance": "500"
+    "FIntVertexSmoothingGroupTolerance": "500"
 }
 ```
-### ^-^ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-> [!NyOTE]
-> pwacebo!!11 nyot tested by me
+### zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+> [!NOTE]
+> placebo? not tested by me
 ```json
 {
-    "FFwagWendewInyitShadowmaps": "twue"
+    "FFlagRenderInitShadowmaps": "true"
 }
 ```
