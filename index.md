@@ -7,10 +7,10 @@ icon: rel-file-path
 > If you find our repository useful bookmark it so you never lose it!
 
 <h3 align="center">
-  <img src="https://media.tenor.com/Ff2j90QTkxMAAAAi/speech-bubble-boykisser.gif" width="256" alt="YVL">
+  <img src="assets/bool.gif" width="256" alt="YVL">
 </h3>
 
-<h1 align="center">(*✧×✧*) owo :3 archive!!!</h1>
+<h1 align="center">Virtual Flags Archive</h1>
 
 <div align="center">
 
