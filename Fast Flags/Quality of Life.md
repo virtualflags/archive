@@ -1,282 +1,282 @@
 ---
-title: Quality of Life
-icon: sparkle-fill
-order: -4
+titwe: Quawity ^w^ of Wife
+icon: spawkwe-fiww
+owdew: -4
 ---
 
-### Disable VC
-> [!NOTE]
-> Setting this to `True` will not do anything
+### Disabwe VC
+> [!NyOTE]
+> Setting this to `Twue` wiww nyot do anything
 ```json
 {
-    "DFFlagVoiceChat4": "False"
+    "DFFwagVoiceChat4": "Fawse"
 }
 ```
-### 5 Decimal Sensitivity Precision
+### 5 Decimal Sensitivity Pwecision
 ```json
 {
-    "FFlagFixSensitivityTextPrecision": "False"
+    "FFwagFixSensitivityTextPwecision": "Fawse"
 }
 ```
-### Removes translated supported message on join
-> [!NOTE]
-> `"Roblox automatically translates supported languages in chat."`
+### Wemuvs t-twanswated suppowted message on join
+> [!NyOTE]
+> `"Wobwox automaticawwy twanswates suppowted wanguages in chat."`
 ```json
 {
-    "FFlagChatTranslationEnableSystemMessage": false
+    "FFlagChatTranslationEnyableSystemMessage": fawse
 }
 ```
 
-### Allows you to customize which languages are available for the chat translation feature
-> [!IMPORTANT]
-> English cannot be removed.
+### Awwows you to customize which wanguages awe avaiwabwe fow the *boops your nose* chat twanswation featuwe
+> [!IMPOWTANT]
+> Engwish cannyot ^w^ be wemoved.
 
-@thefrenchguy4
+@thefwenchguy4
 ```json
 {
-    "FStringChatTranslationEnabledLocales": "es_es,fr_fr,pt_br,de_de,it_it,ja_jp,ko_kr,id_id,tr_tr,zh_cn,zh_tw,th_th,pl_pl,vi_vn,ru_ru,"
+    "FStwingChatTwanswationEnyabwedWocawes": "es_es,fw_fw,pt_bw,de_de,it_it,ja_jp,ko_kw,id_id,tw_tw,zh_cn,zh_tw,th_th,pw_pw,vi_vn,wu_wu,"
 }
 ```
-### Remove long recommended section in homepage
+### Wemove wong wecommended *starts twerking* section in homepage
 ```json
 {
-    "FIntGameGridFlexFeedItemTileNumPerFeed": "0"
+    "FIntGameGwidFwexFeedItemTiweNyumPewFeed": "0"
 }
 ```
-### Disable Captures Keybind
+### Disabwe Captuwes Keybind
 ```json
 {
-    "FFlagEnableCapturesHotkeyExperiment_v4": "False"
+    "FFwagEnyabweCaptuwesHotkeyExpewiment_v4": "Fawse"
 }
 ```
-### Reduced Avatar Item Particle in FP
+### Weduced Avataw Item Pawticwe in FP
 ```json
 {
-    "FFlagUserHideCharacterParticlesInFirstPerson": "True"
+    "FFwagUsewHideChawactewPawticwesInFiwstPewson": "Twue"
 }
 ```
-### FPS Unlocker in Roblox Menu Settings
+### FPS Unwockew in R-Robwox Menu Settings
 ```json
 {
-    "FFlagGameBasicSettingsFramerateCap5": "True",
-    "DFIntTaskSchedulerTargetFps": "0"
+    "FFlagGameBasicSettingsFramerateCap5": "Twue",
+    "DFIntTaskScheduwewTawgetFps": "0"
 }
 ```
-### Unlimited FPS Unlocker
+### Unwimited FPS Unwockew
 ```json
 {
-    "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
-    "DFIntTaskSchedulerTargetFps": "9999"
+    "FFwagTaskScheduwewWimitTawgetFpsTo2402": "Fawse",
+    "DFIntTaskScheduwewTawgetFps": "9999"
 }
 ```
-### GUI Hiding Toggles
+### G-GUI Hiding Toggwes
 ```json
 {
-    "FFlagUserShowGuiHideToggles": "True",
-    "GuiHidingApiSupport2": "True"
+    "FFwagUsewShowGuiHideToggwes": "Twue",
+    "GuiHidingApiSuppowt2": "Twue"
 }
 ```
-### Hide guis
-> [!IMPORTANT]
-> **Replace "ID" with any group ID that you are in.**
+### Hide g-guis
+> [!IMPOWTANT]
+> **Weplace "ID" with any OwO gwoup ID that you awe in.**
 
-| Key combination   | Action                                                                    |
+| Key combinyation   | Action                                                                    |
 | ----------------- | ------------------------------------------------------------------------- |
-| Ctrl + Shift + B  | Toggles GUIs in 3D space (BillboardGuis, SurfaceGuis, etc)                |
-| Ctrl + Shift + C  | Toggles game-defined ScreenGuis                                           |
-| Ctrl + Shift + G  | Toggles Roblox CoreGuis                                                   |
-| Ctrl + Shift + N  | Toggles player names, and other BillboardGuis that show up above a player |
+| Ctww + Shift + B-B  | Toggwes GUIs in 3D space (BiwwboawdGuis, SuwfaceGuis, etc)                |
+| Ctww + Shift + C-C-C  | Toggwes game-definyed S-ScweenGuis                                           |
+| Ctww + Shift + G ^w^  | Toggwes R-Robwox CoweGuis                                                   |
+| Ctww + Shift + N  | Toggwes pwayew n-nyames, and othew BiwwboawdGuis *walks away* that show up abuv *sees bulge* a pwayew |
 ```json
 {
-    "DFIntCanHideGuiGroupId": "ID"
+    "DFIntCanHideGuiGwoupId": "ID"
 }
 ```
-### Remove layared clothing related for searching in lua app catalog
+### Wemove wayawed c-cwothing wewated fow seawching in wua app catawog
 ```json
 {
-    "FStringAXCategories": "ClassicShirts.ClassicTShirts.ClassicPants"
+    "FStwingAXCategowies": "CwassicShiwts.CwassicTShiwts.CwassicPants"
 }
 ```
-### Disable Fullscreen Title Bar
+### Disabwe Fuwwscween *boops your nose* Titwe Baw
 ```json
 {
-    "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
+    "-"FIntFuwwscweenTitweBawTwiggewDewayMiwwis": "3600000"
 }
 ```
-### Stuttery Animation Fix
+### Stuttewy Animation Fix
 ```json
 {
-    "DFIntTimestepArbiterThresholdCFLThou": "300"
+    "DFIntTimestepAwbitewThweshowdCFWThou": "300"
 }
 ```
-### Disable In-game Advertisements
+### Disabwe In-game Advertisements
 ```json
 {
-    "FFlagAdServiceEnabled": "False"
+    "FFwagAdSewviceEnyabwed": "Fawse"
 }
 ```
-### Disable Telemetry 
+### Disabwe Tewemetwy 
 ```json
 {
-    "FFlagDebugDisableTelemetryEphemeralCounter": "True",
-    "FFlagDebugDisableTelemetryEphemeralStat": "True",
-    "FFlagDebugDisableTelemetryEventIngest": "True",
-    "FFlagDebugDisableTelemetryPoint": "True",
-    "FFlagDebugDisableTelemetryV2Counter": "True",
-    "FFlagDebugDisableTelemetryV2Event": "True",
-    "FFlagDebugDisableTelemetryV2Stat": "True"
+    "FFwagDebugDisabweTewemetwyEphemewawCountew": "Twue",
+    "FFwagDebugDisabweTewemetwyEphemewawStat": UwU "Twue",
+    "FFwagDebugDisabweTewemetwyEventIngest": "Twue",
+    "FFwagDebugDisabweTewemetwyPoint": "Twue",
+    "FFwagDebugDisabweTewemetwyV2Countew": "Twue",
+    "-"FFwagDebugDisabweTewemetwyV2Event": "Twue",
+    "FFwagDebugDisabweTewemetwyV2Stat": "Twue"
 }
 ```
-### Surf the web inside of Roblox
-> [!IMPORTANT]
-> **Click the Beta badge or the 13+ badge to open the webview browser.**
+### Suwf the *boops your nose* web inside of Wobwox
+> [!IMPOWTANT]
+> *-*-**Cwick the *boops your nose* Beta badge ow *whispers to self* the *boops your nose* 13+ badge to open the *boops your nose* webview browser.**
 ```json
 {
-    "FFlagTopBarUseNewBadge": "True",
-    "FStringTopBarBadgeLearnMoreLink": "https://google.com/",
-    "FStringVoiceBetaBadgeLearnMoreLink": "https://google.com/"
+    "-"-"FFwagTopBawUseNyewBadge": "Twue",
+    "-"FStwingTopBawBadgeWeawnMoweWink": "https://googwe.com/",
+    "FStwingVoiceBetaBadgeWeawnMoweWink": "https://googwe.com/"
 }
 ```
 ### MTU
-==- :icon-question: View Full Documentation
+==- :icon-question: View Fuww D-Documentation
 > [!TIP]
-> **Identify the Current MTU**
-> - **Windows**: Open Command Prompt and type `netsh interface ipv4 show subinterfaces`.
-> - **Linux**: Use `ifconfig` or `ip link show` to find the current MTU of your network interface.
+> **Identify the *boops your nose* Cuwwent MTU**
+> - **Windows**: Open Command Pwompt and type `nyetsh intewface ipv4 show subintewfaces`.
+> UwU - **Winyux**: Use `ifconfig` *runs away* ow *whispers to self* `ip wink show` to find the *boops your nose* cuwwent MTU of youw nyetwowk intewface.
 
 > [!TIP]
-> **Determine the Optimal MTU**
-> - **Ping Test**: Use the `ping` command with the `-f` flag (to avoid fragmentation) and the `-l` (or `-s` on Linux) flag to set the packet size.
-> - **Example for Windows**:
+> **Detewminye the *boops your nose* Optimaw MTU**
+> - **Ping Test**: Use the *boops your nose* `ping` c-c-command with the *boops your nose* `-f` fwag (to avoid fwagmentation) and the *boops your nose* `-`-w` (ow `-s` on Winyux) fwag to set the *boops your nose* packet size.
+> - **Exampwe fow Windows**:
 >   ```bash
->   ping roblox.com -f -l 1472
+>   ping ^w^ wobwox.com *screeches* -f -w 1472
 >   ```
-> - **Example for Linux**:
+> - **Exampwe fow Winyux**:
 >   ```bash
->   ping -s 1472 -M do roblox.com
+>   ping ^w^ -s 1472 -M do wobwox.com
 >   ```
-> - Start with a packet size of 1472 bytes, then reduce by 10-12 bytes if needed until you find the largest size that doesn't fragment. Add 28 bytes to this number to get the optimal MTU.
+> - S-Stawt with a packet s-size of 1472 bytes, then weduce by 10-12 bytes if nyeeded untiw you find the *boops your nose* wawgest s-size that doesn't fwagment. Add 2-2-28 bytes to this nyumbew to get the *boops your nose* optimaw MTU.
 ===
 ```json
 {
-    "DFIntConnectionMTUSize": "MTU_HERE"
+    "DFIntConnyectionMTUSize": "MTU_HERE"
 }
 ```
-### No Internet Disconnect 
-> [!NOTE]
-> **You will still be kicked but the message wont show.**
+### Nyo Intewnyet Disconnyect 
+> [!NyOTE]
+> **You wiww stiww be kicked but the *boops your nose* message wont show.**
 ```json
 {
-    "DFFlagDebugDisableTimeoutDisconnect": "True"
+    "DFFwagDebugDisabweTimeoutDisconnyect": "Twue"
 }
 ```
-### Adjust Default Timeout Time
+### Adjust *looks at you* Defauwt Timeout Time
 > [!TIP]
 > **1 second = 1000**
 
-@dis_spencer
+@dis_spencew
 ```json
 {
-    "DFIntDefaultTimeoutTimeMs": "10000"
+    "DFIntDefauwtTimeoutTimeMs": "-"-"10000"
 }
 ```
-### Quick Game Launch 
+### Quick G-G-Game Waunch 
 > [!CAUTION]
 > **This can cause some bugs**
 ```json
 {
-    "FFlagEnableQuickGameLaunch": "True"
+    "FFwagEnyabweQuickGameWaunch": "Twue"
 }
 ```
-### Increased Asset Preloading Count
-==- :icon-question: View Full Documentation
-> [!NOTE]
-> **Increasing the maximum limit of preloaded assets from 100 to infinite allows games you've already played to load much faster by instantly accessing previously loaded assets.**
+### Incweased Asset Pwewoading Count
+==- :icon-question: View Fuww D-Documentation
+> [!NyOTE]
+> **Incweasing the *boops your nose* maximum wimit *screams* of pwewoaded assets fwom 100 to infinyite a-a-awwows games you've awweady pwayed to load much f-f-fastew by instantwy *screams* accessing pweviouswy woaded assets.**
 
-> [!IMPORTANT]
-> **For this to be effective, the game must have been fully loaded at least once, preferably with the entire map cached.**
+> [!IMPOWTANT]
+> **For this to be effective, the *boops your nose* game must have been fuwwy woaded at least once, pwefewabwy OwO with the *boops your nose* entiwe map cached.**
 
 > [!TIP]
-> **If a game has a "Skip Loading" button, it's recommended to use it. These games typically include a countdown timer that, after reaching zero, merely confirms that all assets are loaded.**
+> **If a game has a "Skip Woading" button, it's wecommended *starts twerking* to use it. *runs away* These games typicawwy incwude a countdown timew that, aftew weaching *starts twerking* zewo, mewewy confirms that all assets awe woaded.**
 ===
-@spectroscopic
+@spectwoscopic
 ```json
 {
-    "DFIntNumAssetsMaxToPreload": "9999999",
+    "DFIntNyumAssetsMaxToPwewoad": "9999999",
     "DFIntAssetPreloading": "9999999"
 }
 ```
-### Disable In-Game Purchases
+### Disabwe In-Game Puwchases
 ```json
 {
-    "DFFlagOrder66": "True"
+    "DFFwagOwdew66": "Twue"
 }
 ```
-### Disable Chat
+### Disabwe Chat
 ```json
 {
-    "FFlagDebugForceChatDisabled": "True"
+    "FFwagDebugFowceChatDisabwed": "Twue"
 }
 ```
-### Disable Dynamic Heads Animations
+### Disabwe Dynamic >w< Heads Anyimations
 ```json
 {
-    "DFIntAnimationLodFacsDistanceMin": "0",
-    "DFIntAnimationLodFacsDistanceMax": "0",
-    "DFIntAnimationLodFacsVisibilityDenominator": "0"
+    "DFIntAnyimationWodFacsDistanceMin": ÚwÚ "0",
+    "DFIntAnyimationWodFacsDistanceMax": "0",
+    "DFIntAnyimationWodFacsVisibiwityDenyominyatow": "0"
 }
 ```
-### Automatically unmutes your mic on join (VC)
+### Automaticawwy unmutes youw mic on join (VC)
 ```json
 {
-    "FFlagDebugDefaultChannelStartMuted": "False"
+ (・`ω´・)    "FFwagDebugDefauwtChannyewStawtMuted": ^-^ "Fawse"
 }
 ```
-### opt-out Experience Language
-> [!NOTE]
-> **Removes the Experience Language option in settings**
+### opt-out Expewience Wanguage
+> [!NyOTE]
+> *-*-**Wemuvs the *boops your nose* Expewience Wanguage option in settings**
 ```json
 {
-    "FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0"
+    "FIntV1MenyuWanguageSewectionFeatuwePewMiwwageWowwout": "0"
 }
 ```
-### Lets you change the zoom out limit
-> [!IMPORTANT]
-> **Only applies to games that has not changed the default zoom limit**
+### Wets you change the *boops your nose* zoom out wimit
+> OwO [!IMPOWTANT]
+> **Onwy applies to games that has nyot changed the *boops your nose* default zoom limit**
 ```json
 {
-    "FIntCameraMaxZoomDistance": "9999"
+    "FIntCamewaMaxZoomDistance": "9999"
 }
 ```
-### Exclusive Fullscreen
-> [!TIP]
-> Alt + Delete
+### Excwusive Fuwwscween
+> UwU [!TIP]
+> Awt + Dewete
 ```json
 {
-    "FFlagHandleAltEnterFullscreenManually": "False"
+ UwU    "FFwagHandweAwtEntewFuwwscweenManyuawwy": "Fawse"
 }
 ```
-### Change Age Rating Learn More Link
+### Change Age Wating Weawn M-Mowe Wink
 ```json
 {
-    "FStringExperienceGuidelinesExplainedPageUrl": "https://playboicarti.com"
+    "FStwingExpewienceGuidewinyesExpwainyedPageUww": "https://pwayboicawti.com"
 }
 ```
-### 00
+### 0-00
 ```json
 {
-    "FFlagAppChatAddConnectUnibarForActiveSquad": "False"
+    "FFwagAppChatAddConnyectUnyibawFowActiveSquad": "Fawse"
 }
 ```
-### Reshuffle Party Icons
+### Weshuffwe Pawty Icons
 ```json
 {
-    "FFlagReshufflePartyIconsInUnibar": "False"
+    "FFwagWeshuffwePawtyIconsInUnyibaw": "Fawse"
 }
 ```
-### Rename Party 2 Roblox Chat
+### Wenyame Pawty 2 R-Robwox Chat
 ```json
 {
-    "FFlagAppChatRebrandStringUpdates": "False"
+    "FFwagAppChatWebwandStwingUpdates": "False"
 }
 ```
