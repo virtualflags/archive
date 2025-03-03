@@ -32,7 +32,7 @@ date: 2023-08-26
 
 <div align="center">
 
-# :icon-info: This is a collaborative effort to maintain an organized list of FastFlags
+#### :icon-info: This is a collaborative effort to maintain an organized list of FastFlags
 
 :icon-book: 227 Currently Listed [!badge variant="info" text="LATEST"]
 
