@@ -170,7 +170,7 @@ order: -8
 ```
 ### Self Explanatory 7
 @thefrenchguy4
-```
+```json
 {
     "FFlagRenamePassesAndGearToSubscriptionsAndPasses": "False"
 }
