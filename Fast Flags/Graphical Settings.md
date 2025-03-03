@@ -319,19 +319,3 @@ order: -3
     "DFIntMaxActiveAnimationTracks": "0"
 }
 ```
-### Vertex Smoothing Group Tolerance
-> [!NOTE]
-> placebo? not tested by me
-```json
-{
-    "FIntVertexSmoothingGroupTolerance": "500"
-}
-```
-### zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-> [!NOTE]
-> placebo? not tested by me
-```json
-{
-    "FFlagRenderInitShadowmaps": "true"
-}
-```
