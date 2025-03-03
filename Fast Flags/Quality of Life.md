@@ -97,7 +97,7 @@ order: -4
     "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
 }
 ```
-### Stuttery Animation Fix/Freeze/Crash
+### Stuttery Animation Fix
 ```json
 {
     "DFIntTimestepArbiterThresholdCFLThou": "300"
