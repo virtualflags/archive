@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-root" content="/archive">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.794308013518">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.6.0">
+
+    <!-- Primary Meta Tags -->
+    <title>User Interface/Visuals | VirtualFlags</title>
+    <meta name="title" content="User Interface/Visuals | VirtualFlags">
+    <meta name="description" content="example">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://virtualflags.github.io/archive/fast-flags/user-interface/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://virtualflags.github.io/archive/fast-flags/user-interface/">
+    <meta property="og:title" content="User Interface/Visuals | VirtualFlags">
+    <meta property="og:description" content="example">
+    <meta property="og:image" content="https://github.com/user-attachments/assets/186d3b58-5560-4ea7-ba6f-cc62f8ab5351">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://virtualflags.github.io/archive/fast-flags/user-interface/">
+    <meta property="twitter:title" content="User Interface/Visuals | VirtualFlags">
+    <meta property="twitter:description" content="example">
+    <meta property="twitter:image" content="https://github.com/user-attachments/assets/186d3b58-5560-4ea7-ba6f-cc62f8ab5351">
+
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../favicon.ico" rel="icon">
+    <link href="../../resources/css/retype.css?v=3.6.0.794308013518" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.794308013518" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.794308013518" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.6.0.794308013518" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../assets/00xo-white.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../assets/00xo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Virtual Flags</span>
+                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">master</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/virtualflags/archive">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <symbol id="mark-github-icon-symbol" viewBox="0 0 16 16"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></symbol><use xlink:href="#mark-github-icon-symbol" />
+                                        </g>
+                                    </svg>
+                                    <span>Repository</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://discord.gg/6zqNQTSkrg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Discord</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/virtualflags/archive/issues">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Issues</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/virtualflags/archive">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <symbol id="mark-github-icon-symbol" viewBox="0 0 16 16"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></symbol><use xlink:href="#mark-github-icon-symbol" />
+                                                </g>
+                                            </svg>
+                                            <span>Repository</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://discord.gg/6zqNQTSkrg">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Discord</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/virtualflags/archive/issues">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Issues</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="user-interfacevisuals" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#user-interfacevisuals">#</doc-anchor-trigger>
+        <span>User Interface/Visuals</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="revert-debug-menu-ui-change">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#revert-debug-menu-ui-change">#</doc-anchor-trigger>
+        <span>Revert Debug Menu UI Change</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagImproveMicroprofilerReadability&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="red-fonthighlight-font">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#red-fonthighlight-font">#</doc-anchor-trigger>
+        <span>Red Font/Highlight Font</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FStringDebugHighlightSpecificFont&quot;: &quot;rbxasset://fonts/families/BuilderSans.json&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="voicechat-mute-toggles">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#voicechat-mute-toggles">#</doc-anchor-trigger>
+        <span>Voicechat Mute Toggles</span>
+    </h3>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="https://github.com/user-attachments/assets/186d3b58-5560-4ea7-ba6f-cc62f8ab5351" alt="example">
+    <figcaption class="caption">example</figcaption>
+</figure>
+</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagMuteTogglesEnableIXP&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="mini-webview">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mini-webview">#</doc-anchor-trigger>
+        <span>Mini Webview</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagWebViewProtocol&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="thick-healthbar">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#thick-healthbar">#</doc-anchor-trigger>
+        <span>THICK Healthbar</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagUpdateHealthBar&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="remove-parental-controls-tab">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#remove-parental-controls-tab">#</doc-anchor-trigger>
+        <span>Remove Parental Controls Tab</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagLuaAppsEnableParentalControlsTab&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="legacy-search">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#legacy-search">#</doc-anchor-trigger>
+        <span>Legacy Search</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagAXSearchLandingPageIXPEnabled4&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="disable-profile-picture-customization">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-profile-picture-customization">#</doc-anchor-trigger>
+        <span>Disable Profile Picture Customization</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+     &quot;FFlagAXDefaultAvatarToShopEnabled3&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">{
+    &quot;FFlagEnableNewChatTabExperiment5&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="disable-toast-notifications">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-toast-notifications">#</doc-anchor-trigger>
+        <span>Disable Toast Notifications</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagToastNotificationsProtocolEnabled2&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="rename-communications-to-voice-enabled">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rename-communications-to-voice-enabled">#</doc-anchor-trigger>
+        <span>Rename Communications to Voice Enabled</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagGameDetailsDecoupledCommunication&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="break-reduced-motion-v4">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#break-reduced-motion-v4">#</doc-anchor-trigger>
+        <span>Break Reduced Motion V4</span>
+    </h3>
+</doc-anchor-target>
+<p>@kezcn
+<figure class="content-center">
+    <img src="https://github.com/user-attachments/assets/cfdc9732-084e-4c09-bc43-8039a3bf0d89" alt="image">
+    <figcaption class="caption">image</figcaption>
+</figure>
+</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagFixReducedMotionStuckIGM2&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="revert-charts-back-to-discovery">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#revert-charts-back-to-discovery">#</doc-anchor-trigger>
+        <span>Revert &quot;Charts&quot; back to Discovery</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagLuaAppChartsPageRenameIXP&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="disable-sidebar">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-sidebar">#</doc-anchor-trigger>
+        <span>Disable Sidebar</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagEnableNavBarLabels3&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="v2-menu">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#v2-menu">#</doc-anchor-trigger>
+        <span>V2 Menu</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FIntNewInGameMenuPercentRollout3&quot;: &quot;100&quot;,
+    &quot;FFlagEnableInGameMenuControls&quot;: &quot;False&quot;,
+    &quot;FFlagDisableNewIGMinDUA&quot;: &quot;True&quot;,
+    &quot;FFlagEnableInGameMenuChromeABTest4&quot;: &quot;False&quot;,
+    &quot;FFlagEnableInGameMenuSongbirdABTest&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="custom-disconnect-message">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#custom-disconnect-message">#</doc-anchor-trigger>
+        <span>Custom Disconnect Message</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagReconnectDisabled&quot;: &quot;True&quot;,
+    &quot;FStringReconnectDisabledReason&quot;: &quot;You're stupid and I hate you&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="display-fps">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#display-fps">#</doc-anchor-trigger>
+        <span>Display FPS</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagDebugDisplayFPS&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="verified-badge">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#verified-badge">#</doc-anchor-trigger>
+        <span>Verified Badge</span>
+    </h3>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Note</h5>
+<p>Clientsided only</p>
+        </div>
+    </div>
+</div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FStringWhitelistVerifiedUserId&quot;: &quot;UserID&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="verified-badge-on-everyone">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#verified-badge-on-everyone">#</doc-anchor-trigger>
+        <span>Verified Badge on everyone</span>
+    </h3>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Note</h5>
+<p>Clientsided only</p>
+        </div>
+    </div>
+</div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagOverridePlayerVerifiedBadge&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="applies-cool-colors-to-stuff">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#applies-cool-colors-to-stuff">#</doc-anchor-trigger>
+        <span>Applies cool colors to stuff</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagDebugDisplayUnthemedInstances&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="revert-new-invite-menu">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#revert-new-invite-menu">#</doc-anchor-trigger>
+        <span>Revert new invite menu</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagEnableNewInviteMenuIXP2&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="revert-spacing-on-errors">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#revert-spacing-on-errors">#</doc-anchor-trigger>
+        <span>Revert spacing on errors</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagErrorPromptResizesHeight&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="remove-disconnect-blurloading-blur">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#remove-disconnect-blurloading-blur">#</doc-anchor-trigger>
+        <span>Remove Disconnect Blur/Loading Blur</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FIntRobloxGuiBlurIntensity&quot;: &quot;0&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="disable-new-chat-translation-settings">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-new-chat-translation-settings">#</doc-anchor-trigger>
+        <span>Disable New Chat Translation Settings</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagChatTranslationSettingEnabled3&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="new-camera-mode">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-camera-mode">#</doc-anchor-trigger>
+        <span>New Camera Mode</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagNewCameraControls&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="custom-microprofile-scale">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#custom-microprofile-scale">#</doc-anchor-trigger>
+        <span>Custom MicroProfile Scale</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;DFIntMicroProfilerDpiScaleOverride&quot;:  &quot;100&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="set-custom-font-size">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#set-custom-font-size">#</doc-anchor-trigger>
+        <span>Set Custom Font Size</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FIntFontSizePadding&quot;: &quot;1&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="adjust-scroll-speed">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#adjust-scroll-speed">#</doc-anchor-trigger>
+        <span>Adjust Scroll Speed</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FIntScrollWheelDeltaAmount&quot;: &quot;140&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="set-custom-kick-message-length">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#set-custom-kick-message-length">#</doc-anchor-trigger>
+        <span>Set Custom Kick Message Length</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FIntMaxKickMessageLength&quot;: &quot;1&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="disable-new-blue-theme">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-new-blue-theme">#</doc-anchor-trigger>
+        <span>Disable New Blue Theme</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagLuaAppUseUIBloxColorPalettes1&quot;: &quot;False&quot;,
+    &quot;FFlagLuaAppEnableFoundationColors7&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="enable-new-settings-layout">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#enable-new-settings-layout">#</doc-anchor-trigger>
+        <span>Enable New Settings Layout</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagInExperienceMenuReorderFirstVariant2&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="no-transparency-v4-menu-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#no-transparency-v4-menu-2023">#</doc-anchor-trigger>
+        <span>No Transparency V4 Menu <strong>(2023)</strong></span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FStringInGameMenuModernizationStickyBarForcedUserIds&quot;: &quot;UserID&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="subscriptions-page">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#subscriptions-page">#</doc-anchor-trigger>
+        <span>Subscriptions Page</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagLuaAppDevSubsEnabled&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="overlay-that-shows-what-you-type">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#overlay-that-shows-what-you-type">#</doc-anchor-trigger>
+        <span>Overlay that shows what you type</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagDebugTextBoxServiceShowOverlay&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="ammount-of-lines-to-show-at-once-for-above">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ammount-of-lines-to-show-at-once-for-above">#</doc-anchor-trigger>
+        <span>Ammount of lines to show at once for above</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;DFIntTextBoxServiceHistorySize&quot;: &quot;1&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="hides-gui">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hides-gui">#</doc-anchor-trigger>
+        <span>Hides gui</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagDebugAdornsDisabled&quot;:  &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="dont-render-ui">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dont-render-ui">#</doc-anchor-trigger>
+        <span>Dont Render UI</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagDebugDontRenderUI&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="dont-render-screen-guis">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dont-render-screen-guis">#</doc-anchor-trigger>
+        <span>Dont Render Screen GUIs</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagDebugDontRenderScreenGui&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="disable-autocomplete">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-autocomplete">#</doc-anchor-trigger>
+        <span>Disable Autocomplete</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagEnableCommandAutocomplete&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="break-top-bar-menu">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#break-top-bar-menu">#</doc-anchor-trigger>
+        <span>Break Top Bar Menu</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FStringNewInGameMenuForceds&quot;: &quot;UserID&quot;,
+    &quot;FFlagEnableInGameMenuChrome&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="break-collectible-icon">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#break-collectible-icon">#</doc-anchor-trigger>
+        <span>Break Collectible Icon</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagDisplayCollectiblesIcon&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="disable-bubble-chat">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-bubble-chat">#</doc-anchor-trigger>
+        <span>Disable Bubble Chat</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagEnableBubbleChatFromChatService&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="disable-avatar-chat">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-avatar-chat">#</doc-anchor-trigger>
+        <span>Disable Avatar Chat</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagAvatarChatServiceEnabled3&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="remove-vc-beta-badge">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#remove-vc-beta-badge">#</doc-anchor-trigger>
+        <span>Remove VC Beta Badge</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagVoiceBetaBadge&quot;: &quot;False&quot;,
+    &quot;FFlagTopBarUseNewBadge&quot;: &quot;False&quot;,
+    &quot;FFlagBetaBadgeLearnMoreLinkFormview&quot;: &quot;False&quot;,
+    &quot;FFlagControlBetaBadgeWithGuac&quot;: &quot;False&quot;,
+    &quot;FStringVoiceBetaBadgeLearnMoreLink&quot;: &quot;null&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="vr-controller-transparency">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#vr-controller-transparency">#</doc-anchor-trigger>
+        <span>VR Controller transparency</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FIntVRTouchControllerTransparency&quot;: &quot;0&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="disable-vr-collision-fade">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-vr-collision-fade">#</doc-anchor-trigger>
+        <span>Disable VR Collision Fade</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagViewCollisionFadeToBlackInVR&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="limit-videos-playing">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#limit-videos-playing">#</doc-anchor-trigger>
+        <span>Limit Videos Playing</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;DFIntVideoMaxNumberOfVideosPlaying&quot;: &quot;0&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="disable-dsa-reporting-in-game">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-dsa-reporting-in-game">#</doc-anchor-trigger>
+        <span>Disable DSA Reporting In-game</span>
+    </h3>
+</doc-anchor-target>
+<p>@kezcn</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagDSAIllegalContentReporting2&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="desktop-app-dev-tools">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#desktop-app-dev-tools">#</doc-anchor-trigger>
+        <span>Desktop App Dev Tools</span>
+    </h3>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Important</h5>
+<p>Only works on web view windows like profiles, Ctrl + Shift + I</p>
+        </div>
+    </div>
+</div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagDebugEnableNewWebView2DevTool&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="enable-events-tabchange-events-tab-url">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#enable-events-tabchange-events-tab-url">#</doc-anchor-trigger>
+        <span>Enable Events Tab/Change Events Tab URL</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagPlatformEventEnabled2&quot;: &quot;True&quot;,
+    &quot;FStringPlatformEventUrl&quot;: &quot;AnyLinkHere&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="better-trackpad-scrolling">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#better-trackpad-scrolling">#</doc-anchor-trigger>
+        <span>Better Trackpad Scrolling</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagBetterTrackpadScrolling&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="reset-character-instead-of-respawn-in-experience-menu">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#reset-character-instead-of-respawn-in-experience-menu">#</doc-anchor-trigger>
+        <span>Reset Character instead of Respawn in Experience Menu</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagInExperienceMenuResetButtonTextToRespawn&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="experimental-remind-me-to-make-this-a-different-section" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#experimental-remind-me-to-make-this-a-different-section">#</doc-anchor-trigger>
+        <span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M12.5 1.25a.75.75 0 0 0-1.5 0v8.69L6.447 5.385a.75.75 0 1 0-1.061 1.06L9.94 11H1.25a.75.75 0 0 0 0 1.5h8.69l-4.554 4.553a.75.75 0 0 0 1.06 1.061L11 13.561v8.689a.75.75 0 0 0 1.5 0v-8.69l4.553 4.554a.75.75 0 0 0 1.061-1.06L13.561 12.5h8.689a.75.75 0 0 0 0-1.5h-8.69l4.554-4.553a.75.75 0 1 0-1.06-1.061L12.5 9.939V1.25Z"/></g></g></svg> Experimental [remind me to make this a different section]</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="voicechat-in-party">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#voicechat-in-party">#</doc-anchor-trigger>
+        <span>Voicechat in Party</span>
+    </h3>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Note</h5>
+<p>Person(s) you want to party with <strong>must</strong> have both of these to be disabled otherwise they won&#x27;t be able to hear you/speak</p>
+        </div>
+    </div>
+</div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+   &quot;FFlagEnablePartyVoiceOnlyForUnfilteredThreads&quot;: &quot;False&quot;,
+   &quot;FFlagEnablePartyVoiceOnlyForEligibleUsers&quot;: &quot;False&quot;,
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="experience-menu-refactor">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#experience-menu-refactor">#</doc-anchor-trigger>
+        <span>Experience Menu Refactor</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+   &quot;FFlagDebugRefactorInExpGameSettings&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="enable-multi-try-on">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#enable-multi-try-on">#</doc-anchor-trigger>
+        <span>Enable Multi Try On</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+   &quot;FFlagAXEnableMultiTryOnUI&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="enable-posts">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#enable-posts">#</doc-anchor-trigger>
+        <span>Enable Posts</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+   &quot;FFlagCapturesPostEnabledForAll_v4&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="new-experience-menu">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#new-experience-menu">#</doc-anchor-trigger>
+        <span>New Experience Menu</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagRefactorInExpGameSettings&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="enable-first-time-user-experience-for-chrome-ui">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#enable-first-time-user-experience-for-chrome-ui">#</doc-anchor-trigger>
+        <span>Enable First Time User Experience for Chrome UI</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagEnableChromeFTUX&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="chrome-ui-topbar-removal">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#chrome-ui-topbar-removal">#</doc-anchor-trigger>
+        <span>Chrome UI Topbar Removal</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagEnableInGameMenuChromeABTest4&quot;: &quot;False&quot;
+    &quot;FFlagEnableInGameMenuSongbirdABTest&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="hide-playerlist-close-button-on-chrome-ui">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hide-playerlist-close-button-on-chrome-ui">#</doc-anchor-trigger>
+        <span>Hide playerlist close button on Chrome UI</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagDisablePlayerListDisplayCloseBtn&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="self-explanatory-i-think">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#self-explanatory-i-think">#</doc-anchor-trigger>
+        <span>Self Explanatory i think</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagChromeUsePreferredTransparency&quot;: &quot;True&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="ragdoll-death-type">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ragdoll-death-type">#</doc-anchor-trigger>
+        <span>Ragdoll Death Type</span>
+    </h3>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Important</h5>
+<p><strong>Studio Only</strong></p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Note</h5>
+<p><strong>I tried <code v-pre>Ragdoll</code> to see if anything would happen lol this is how i found this (found this long time ago)</strong></p>
+        </div>
+    </div>
+</div>
+<p>@burgerboxer</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;DFStringDefaultAvatarDeathType&quot;: &quot;Ragdoll&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="crash__">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#crash__">#</doc-anchor-trigger>
+        <span>crash__()</span>
+    </h3>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Important</h5>
+<p><strong>Studio Only</strong></p>
+        </div>
+    </div>
+</div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagDebugCrashEnabled&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../fast-flags/quality-of-life/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Quality of Life</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../fast-flags/audio/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Audio Related</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© 2025 VirtualFlags</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "User Interface/Visuals", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
