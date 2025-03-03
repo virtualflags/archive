@@ -10,24 +10,11 @@ order: -5
     "FStringDebugHighlightSpecificFont": "rbxasset://fonts/families/BuilderSans.json"
 }
 ```
-### New Report Menu
-```json
-{
-  "FStringSelectInSceneReportMenuOverrideUserIds": "UserID"
-}
-```
 ### Voicechat Mute Toggles
+![example](https://github.com/user-attachments/assets/186d3b58-5560-4ea7-ba6f-cc62f8ab5351)
 ```json
 {
     "FFlagMuteTogglesEnableIXP": "False"
-}
-```
-### 🍔
-> [!NOTE]
-> **Chrome UI only**
-```json
-{
-    "FFlagEnableHamburgerIcon": "True"
 }
 ```
 ### Mini Webview
@@ -58,12 +45,6 @@ order: -5
 ```json
 {
      "FFlagAXDefaultAvatarToShopEnabled3": "False"
-}
-```
-### old luaapp chat button
-```json
-{
-    "FStringNewChatTabExperimentLayerValue": "2024MUSIC"
 }
 ```
 ```
@@ -202,18 +183,11 @@ order: -5
     "FIntMaxKickMessageLength": "1"
 }
 ```
-### Darker Dark Theme
+### Disable New Blue Theme
 ```json
 {
-    "FFlagLuaAppUseUIBloxColorPalettes1": "True",
-    "FFlagUIBloxUseNewThemeColorPalettes": "True"
-}
-```
-### Ennable Blue Theme
-```json
-{
-    "FFlagLuaAppUseUIBloxColorPalettes1": "True",
-    "FFlagLuaAppEnableFoundationColors7": "True"
+    "FFlagLuaAppUseUIBloxColorPalettes1": "False",
+    "FFlagLuaAppEnableFoundationColors7": "False"
 }
 ```
 ### Enable New Settings Layout
@@ -287,12 +261,6 @@ order: -5
 ```json
 {
     "FFlagEnableBubbleChatFromChatService": "False"
-}
-```
-### Disable Camera & Selfview
-```json
-{
-    "FFlagSelfieViewEnabled": "True"
 }
 ```
 ### Disable Avatar Chat
@@ -386,32 +354,6 @@ order: -5
     "FFlagEnableChromeFTUX": "True"
 }
 ```
-### Enable Better Haptics
-```json
-{
-    "FFlagEnableBetterHapticsResultHandling": "True"
-}
-```
-### Old Chrome UI Topbar
-```json
-{
-    "FFlagEnableHamburgerIcon": "False",
-    "FFlagEnableUnibarV4IA": "False",
-    "FFlagEnableAlwaysOpenUnibar2": "False",
-    "FFlagUseNewUnibarIcon": "False",
-    "FFlagUseSelfieViewFlatIcon": "False",
-    "FFlagUnibarRespawn": "False",
-    "FFlagEnableChromePinIntegrations2": "False"
-}
-```
-### Extra + Left Healthbar on Chrome UI Topbar
-```json
-{
-    "FFlagEnableUnibarMaxDefaultOpen": "True",
-    "FFlagUpdateHealthBar": "False",
-    "FFlagUseNewPinIcon": "False"
-}
-```
 ### Chrome UI Topbar Removal
 ```json
 {
@@ -429,12 +371,6 @@ order: -5
 ```json
 {
     "FFlagChromeUsePreferredTransparency": "True"
-}
-```
-### Pin Chat on Chrome UI
-```json
-{
-    "FFlagEnableChromePinnedChat": "True"
 }
 ```
 ### Ragdoll Death Type
