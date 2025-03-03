@@ -4,7 +4,7 @@ icon: rel-file-path
 authors:
   - name: Farrelle Espresso
     link: https://twitter.com/caffe_soft
-    avatar: assets/bool.gif
+    avatar: https://raw.githubusercontent.com/virtualflags/archive/refs/heads/master/assets/00xo-white.png
 date: 2023-08-26
 ---
 
@@ -12,7 +12,7 @@ date: 2023-08-26
 > If you find our repository useful bookmark it so you never lose it!
 
 <h3 align="center">
-  <img src="assets/bool.gif" width="256" alt="YVL">
+  <img src="" width="256" alt="YVL">
 </h3>
 
 <h1 align="center">Virtual Flags Archive</h1>
@@ -31,6 +31,8 @@ date: 2023-08-26
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
 
 <div align="center">
+
+# :icon-info: This is a collaborative effort to maintain an organized list of FastFlags
 
 :icon-book: 227 Currently Listed [!badge variant="info" text="LATEST"]
 
