@@ -339,13 +339,20 @@ order: -5
 > Person(s) you want to party with **must** have both of these to be disabled otherwise they won't be able to hear you/speak
 ```json
 {
-   "FFlagAXEnableMultiTryOnUI": "True"
+   "FFlagEnablePartyVoiceOnlyForUnfilteredThreads": "False",
+   "FFlagEnablePartyVoiceOnlyForEligibleUsers": "False",
 }
 ```
 ### Enable Multi Try On
 ```json
 {
    "FFlagAXEnableMultiTryOnUI": "True"
+}
+```
+### Enable Posts
+```json
+{
+   "FFlagCapturesPostEnabledForAll_v4": "True"
 }
 ```
 ### New Experience Menu
