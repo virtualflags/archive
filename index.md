@@ -2,7 +2,7 @@
 title: Info
 icon: rel-file-path	
 authors:
-  - name: Farrelle Espresso
+  - name: Farrelle
     link: https://twitter.com/caffe_soft
     avatar: assets/IMSOYVL.jpg
 date: 2023-08-26
