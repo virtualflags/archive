@@ -12,12 +12,6 @@ order: -4
     "DFFlagVoiceChat4": "False"
 }
 ```
-### 5 Decimal Sensitivity Precision
-```json
-{
-    "FFlagFixSensitivityTextPrecision": "False"
-}
-```
 ### Removes translated supported message on join
 > [!NOTE]
 > `"Roblox automatically translates supported languages in chat."`
@@ -103,7 +97,7 @@ order: -4
     "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
 }
 ```
-### Stuttery Animation Fix
+### Stuttery Animation Fix/Freeze/Crash
 ```json
 {
     "DFIntTimestepArbiterThresholdCFLThou": "300"
@@ -260,18 +254,6 @@ order: -4
 ```json
 {
     "FStringExperienceGuidelinesExplainedPageUrl": "https://playboicarti.com"
-}
-```
-### 00
-```json
-{
-    "FFlagAppChatAddConnectUnibarForActiveSquad": "False"
-}
-```
-### Reshuffle Party Icons
-```json
-{
-    "FFlagReshufflePartyIconsInUnibar": "False"
 }
 ```
 ### Rename Party 2 Roblox Chat
