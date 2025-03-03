@@ -3,7 +3,12 @@ title: User Interface/Visuals
 icon: versions
 order: -5
 ---
-
+### Revert Debug Menu UI Change
+```json
+{
+    "FFlagImproveMicroprofilerReadability": "False"
+}
+```
 ### Red Font/Highlight Font
 ```json
 {
