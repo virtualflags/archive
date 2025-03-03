@@ -1,6 +1,11 @@
 ---
-title: Introduction
+title: Info
 icon: rel-file-path	
+authors:
+  - name: Farrelle Espresso
+    link: https://twitter.com/caffe_soft
+    avatar: assets/bool.gif
+date: 2023-08-26
 ---
 
 > [!NOTE]
