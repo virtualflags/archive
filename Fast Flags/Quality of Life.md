@@ -4,6 +4,12 @@ icon: sparkle-fill
 order: -4
 ---
 
+### DO NOT DISTURB/Disable Notifications
+```json
+{
+    "FFlagToastNotificationsProtocolEnabled2": "False"
+}
+```
 ### Disable VC
 > [!NOTE]
 > Setting this to `True` will not do anything
