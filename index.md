@@ -4,7 +4,7 @@ icon: rel-file-path
 authors:
   - name: Farrelle Espresso
     link: https://twitter.com/caffe_soft
-    avatar: https://raw.githubusercontent.com/virtualflags/archive/refs/heads/master/assets/00xo-white.png
+    avatar: assets/IMSOYVL.jpg
 date: 2023-08-26
 ---
 
