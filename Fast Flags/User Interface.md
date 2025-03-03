@@ -342,6 +342,12 @@ order: -5
    "FFlagAXEnableMultiTryOnUI": "True"
 }
 ```
+### Enable Multi Try On
+```json
+{
+   "FFlagAXEnableMultiTryOnUI": "True"
+}
+```
 ### New Experience Menu
 ```json
 {
