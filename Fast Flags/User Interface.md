@@ -348,6 +348,12 @@ order: -5
    "FFlagEnablePartyVoiceOnlyForEligibleUsers": "False",
 }
 ```
+### Experience Menu Refactor
+```json
+{
+   "FFlagDebugRefactorInExpGameSettings": "True"
+}
+```
 ### Enable Multi Try On
 ```json
 {
