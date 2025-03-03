@@ -4,18 +4,18 @@ icon: sparkle-fill
 order: -4
 ---
 
+### DO NOT DISTURB/Disable Notifications
+```json
+{
+    "FFlagToastNotificationsProtocolEnabled2": "False"
+}
+```
 ### Disable VC
 > [!NOTE]
 > Setting this to `True` will not do anything
 ```json
 {
     "DFFlagVoiceChat4": "False"
-}
-```
-### 5 Decimal Sensitivity Precision
-```json
-{
-    "FFlagFixSensitivityTextPrecision": "False"
 }
 ```
 ### Removes translated supported message on join
@@ -260,18 +260,6 @@ order: -4
 ```json
 {
     "FStringExperienceGuidelinesExplainedPageUrl": "https://playboicarti.com"
-}
-```
-### 00
-```json
-{
-    "FFlagAppChatAddConnectUnibarForActiveSquad": "False"
-}
-```
-### Reshuffle Party Icons
-```json
-{
-    "FFlagReshufflePartyIconsInUnibar": "False"
 }
 ```
 ### Rename Party 2 Roblox Chat

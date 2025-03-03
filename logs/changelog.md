@@ -7,7 +7,41 @@ layout: central
 
 <div align="center">
 
-### v2.14 💘 [!badge variant="info" text="LATEST"]
+### v3.3 downfall of fastflags ong [!badge variant="info" text="LATEST"]
+Released: 2025-03-03
+
+</div>
+
++++ :icon-sparkle-fill: New
+- [x] **`Enable Multi Try On`**
+- [x] **`Enable Posts`**
+- [x] **`Voicechat in Party`**
+- [x] **`Revert Debug Menu UI Change`**
+- [x] **`spammed`**
+- [x] **`Experience Menu Refactor`**
+- [x] **`DO NOT DISTURB/Disable Notifications`**
++++ :icon-trash: Removed
+- [x] **`Vertex Smoothing Group Tolerancee`**
+- [x] **`zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz`**
+- [x] **`5 Decimal Sensitivity Precision`**
+- [x] **`00`**
+- [x] **`Reshuffle Party Icons`**
+- [x] **`New Report Menu`**
+- [x] **`🍔`**
+- [x] **`old luaapp chat button`**
+- [x] **`Enable Blue Theme`**
+- [x] **`Disable Camera & Selfview`**
+- [x] **`Enable Better Haptics`**
+- [x] **`Old Chrome UI Topbar`**
+- [x] **`Extra + Left Healthbar on Chrome UI Topbar`**
+- [x] **`Pin Chat on Chrome UI`**
+- [x] **List Check & Cleanup**
++++
+
+
+<div align="center">
+
+### v2.14
 Released: 2025-02-14
 
 </div>
