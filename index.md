@@ -12,7 +12,7 @@ date: 2023-08-26
 > If you find our repository useful bookmark it so you never lose it!
 
 <h3 align="center">
-  <img src="" width="256" alt="YVL">
+  <img src="assets/bool.gif" width="256" alt="YVL">
 </h3>
 
 <h1 align="center">Virtual Flags Archive</h1>
