@@ -1,5 +1,5 @@
 ---
-title: Info
+title: Information
 icon: rel-file-path	
 authors:
   - name: Farrelle
