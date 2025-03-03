@@ -12,6 +12,14 @@ Released: 2025-03-03
 
 </div>
 
++++ :icon-sparkle-fill: New
+- [x] **`Enable Multi Try On`**
+- [x] **`Enable Posts`**
+- [x] **`Voicechat in Party`**
+- [x] **`Revert Debug Menu UI Change`**
+- [x] **`spammed`**
+- [x] **`Experience Menu Refactor`**
+- [x] **`DO NOT DISTURB/Disable Notifications`**
 +++ :icon-trash: Removed
 - [x] **`Vertex Smoothing Group Tolerancee`**
 - [x] **`zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz`**
