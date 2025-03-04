@@ -2,7 +2,7 @@
 title: this is my public wall
 icon: heart-fill
 layout: central
-order: -2
+order: -3
 authors:
   - name: Farrelle
     link: https://twitter.com/caffe_soft
