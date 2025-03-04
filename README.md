@@ -10,10 +10,13 @@
 [![GitHub Workflow Status][shield-repo-workflow]][repo-actions]
 [![Discord][shield-discord-server]][discord-invite]
 
+### *✧× links to the page ×✧*
+
+#### ⭐ https://virtualflags.github.io/archive/
+
+##### 🪞 https://fastflags.netlify.app/
+
 </div>
-
-<h3 align="center">https://virtualflags.github.io/archive</h3>
-
 
 This repository is a collaborative effort to maintain an **organized list of FastFlags**, allowing others to explore and learn more about these hidden configurations.  
 
