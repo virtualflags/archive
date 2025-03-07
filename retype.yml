@@ -20,8 +20,10 @@ links:
 - text: Issues
   link: https://github.com/virtualflags/archive/issues
   icon: comment-discussion
+markdown:
+  lineBreaks: hard
 footer:
-  copyright: "&copy; {{ year }} VirtualFlags"
+  copyright: ""&copy; Copyright {{ year }} – [VirtualFlags](https://github.com/virtualflags/) – All rights reserved."s"
 exclude: "README.md"
 meta:
   title: " | VirtualFlags"
