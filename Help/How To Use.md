@@ -5,8 +5,8 @@ icon: devices
 
 ## :icon-question: Bloxstrap How to Use:
 #### :icon-star-fill: Use [Fishstrap](https://github.com/returnrqt/fishstrap)
-1. **Open** the **[Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap)**.
-2. **Navigate** to `Fast Flags` >> `Fast Flags Editor` >> `Add New` >>  `Import Json`.
+1. **Open** the **Bloxstrap Menu*.
+2. **Navigate** to `Engine` >> `Fast Flags Editor` >> `Add New` >>  `Import Json`.
 3. **Paste** in the **JSON**.
 4. **Save** and your good to go!
 
