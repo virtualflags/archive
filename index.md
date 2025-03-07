@@ -34,7 +34,7 @@ date: 2023-08-26
 
 #### :icon-info: This is a collaborative effort to maintain an organized list of FastFlags
 
-:icon-book: 220 Currently Listed [!badge variant="info" text="LATEST"]
+:icon-book: 219 Currently Listed [!badge variant="info" text="LATEST"]
 
 [!ref icon="log"](/logs/changelog.md)
 
