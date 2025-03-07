@@ -192,12 +192,6 @@ i hate to call it desync lol
     "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
 }
 ```
-### Wallglide ✨
-```json
-{
-    "DFIntUnstickForceAttackInTenths": "-4"
-}
-```
 ### Network Ownership
 > [!NOTE]
 > better [network ownership](https://create.roblox.com/docs/physics/network-ownership) of parts
