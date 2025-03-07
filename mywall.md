@@ -1,7 +1,7 @@
 ---
 title: this is my public wall
 icon: heart-fill
-redirect: https://virtualflags.github.io/archive/totm/
+redirect: https://virtualflags.github.io/archive/walls/
 order: -3
 authors:
   - name: Farrelle
