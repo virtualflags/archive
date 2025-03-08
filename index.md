@@ -15,7 +15,7 @@ date: 2023-08-26
   <img src="assets/bool.gif" width="256" alt="YVL">
 </h3>
 
-<h1 align="center">Virtual Flags Archive</h1>
+<h1 align="center">VirtualFlags Archive</h1>
 
 <div align="center">
 
