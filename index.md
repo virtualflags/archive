@@ -12,7 +12,7 @@ date: 2023-08-26
 > If you find our repository useful bookmark it so you never lose it!
 
 <h3 align="center">
-  <img src="assets/134.gif" width="256" alt="YVL">
+  <img src="assets/134.gif" width="512" alt="YVL">
 </h3>
 
 <h1 align="center">VirtualFlags Archive</h1>
