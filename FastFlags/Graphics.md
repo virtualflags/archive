@@ -125,13 +125,6 @@ order: -3
     "FIntRenderShadowIntensity": "0"
 }
 ```
-### Disable Shadows
-```json
-{
-    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
-    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647"
-}
-```
 ### Preserve rendering quality with display setting
 ```json
 {

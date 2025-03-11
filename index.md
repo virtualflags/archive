@@ -12,7 +12,7 @@ date: 2023-08-26
 > If you find our repository useful bookmark it so you never lose it!
 
 <h3 align="center">
-  <img src="assets/bool.gif" width="256" alt="YVL">
+  <img src="assets/134.gif" width="512" alt="YVL">
 </h3>
 
 <h1 align="center">VirtualFlags Archive</h1>
@@ -34,7 +34,7 @@ date: 2023-08-26
 
 #### :icon-info: This is a collaborative effort to maintain an organized list of FastFlags
 
-:icon-book: 219 Currently Listed [!badge variant="info" text="LATEST"]
+:icon-book: 216 Currently Listed [!badge variant="info" text="LATEST"]
 
 [!ref icon="log"](/logs/changelog.md)
 
