@@ -273,13 +273,3 @@ i hate to call it desync lol
     "FFlagDebugHumanoidRendering": "True"
 }
 ```
-### Xray ✨
-@tyetonix
-```json
-{
-    "DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
-    "DFIntCullFactorPixelThresholdMainViewLowQuality": "10000",
-    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "10000",
-    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
-}
-```
