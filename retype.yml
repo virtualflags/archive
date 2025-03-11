@@ -21,7 +21,7 @@ links:
   link: https://github.com/virtualflags/archive/issues
   icon: comment-discussion
 footer:
-  copyright: "&copy; Copyright {{ year }} – [VirtualFlags](https://github.com/virtualflags/) – All rights reserved."
+  copyright: "the wonderful world of fastflags.space | &copy; Copyright {{ year }} – [VirtualFlags](https://github.com/virtualflags/) – All rights reserved."
 exclude: "README.md"
 meta:
-  title: " | VirtualFlags"
+  title: " | fastflags.space"
