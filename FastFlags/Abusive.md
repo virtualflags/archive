@@ -151,13 +151,6 @@ i hate to call it desync lol
     "DFIntMaxMissedWorldStepsRemembered": "1000"
 }
 ```
-### Slide on Walls
-```json
-{
-    "DFIntMaximumFreefallMoveTimeInTenths": "2147483648"
-}
-```
-
 ### Noclip 1
 > [!TIP]
 > **Adjust the value so you don't fall through the ground**
@@ -179,17 +172,6 @@ i hate to call it desync lol
 ```json
 {
     "DFIntPhysicsDecompForceUpgradeVersion": "1500"
-}
-```
-### Hip Height ✨
-> [!NOTE]
-> **Very controllable bounce, only works with negative values**
-
-> [!TIP]
-> **0 allows you to hover**
-```json
-{
-    "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
 }
 ```
 ### Network Ownership
