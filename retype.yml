@@ -8,8 +8,8 @@ breadcrumb:
 branding:
   title: "FastFlags.Space"
   label: master
-  logo: allred.gif
-  logoDark: allred.gif
+  logo: assets/allred.gif
+  logoDark: assets/allred.gif
 links:
 - text: Repository
   link: https://github.com/virtualflags/archive
