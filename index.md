@@ -15,7 +15,7 @@ date: 2023-08-26
   <img src="assets/134.gif" width="512" alt="YVL">
 </h3>
 
-<h1 align="center">VirtualFlags Archive</h1>
+<h1 align="center">FastFlags.World Archive</h1>
 
 <div align="center">
 
