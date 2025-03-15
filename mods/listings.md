@@ -9,11 +9,9 @@ authors:
 date: 2025-03-15
 ---
 
-<h3 align="center">
-  <img src="assets/ALBUM.gif" width="128" alt="YVL">
-</h3>
+<div align="center">
 
-<h1 align="center">Mods</h1>
+<img src="https://raw.githubusercontent.com/fastdotspace/fastflags.space/refs/heads/fix/assets/ALBUM.gif" width="128" alt="YVL">
 
 [!file Download Files](https://github.com/fastdotspace/mods/archive/refs/heads/main.zip)
 
@@ -21,10 +19,10 @@ date: 2025-03-15
 
 <div align="center">
 
-# Synapse V3
+#### Synapse V3
 
 <img src="https://raw.githubusercontent.com/fastdotspace/mods/refs/heads/main/assets/Synapse/image.png" width="312" alt="Preview">
 
-###### by @
+by @
 
 </div>
