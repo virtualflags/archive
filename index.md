@@ -11,19 +11,15 @@ date: 2023-08-26
 > [!NOTE]
 > If you find our repository useful bookmark it so you never lose it!
 
-<h3 align="center">
+<div align="center">
   <img src="assets/134.gif" width="512" alt="YVL">
-</h3>
+
 
 <h1 align="center">FastFlags.World Archive</h1>
 
-<div align="center">
-
-<h3 align="center">
-  <a href="https://discord.gg/6zqNQTSkrg">
-    <img src="https://img.shields.io/discord/1241247795470536725?logo=discord&logoColor=white&label=discord&color=4d3dff" width="156" alt="Join Discord">
+<a href="https://discord.gg/6zqNQTSkrg">
+  <img src="https://img.shields.io/discord/1241247795470536725?logo=discord&logoColor=white&label=discord&color=4d3dff" width="156" alt="Join Discord">
   </a>
-</h3>
 
 </div>
 
