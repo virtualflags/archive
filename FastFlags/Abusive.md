@@ -99,33 +99,10 @@ order: -7
     "DFIntTouchSenderMaxBandwidthBps": "-1"
 }
 ```
-### Fake Lag/Desync ✨
-i hate to call it desync lol
-```json
-{
-    "DFIntS2PhysicsSenderRate": "1"
-}
-```
 ### Improved Syncing
 ```json
 {
     "DFIntS2PhysicsSenderRate": "10000"
-}
-```
-### Invisible 1
-> [!NOTE]
-> **Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.**
-```json
-{
-    "DFIntS2PhysicsSenderRate": "100000"
-}
-```
-### Invisible 2 ✨
-> [!NOTE]
-> **Locks your character's position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable. Here is a list of them: [Link](assets/lists/experiences/specific.md)**
-```json
-{
-    "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
 }
 ```
 ### Clientsided Invisible
@@ -150,18 +127,10 @@ i hate to call it desync lol
 > **Adjust the value so you don't fall through the ground**
 ```json
 {
-    "DFIntAssemblyExtentsExpansionStudHundredth": "-50"
-}
-```
-### Noclip 2
-> [!TIP]
-> **Adjust the value so you don't fall through the ground**
-```json
-{
     "DFIntSimBroadPhasePairCountMax": "50"
 }
 ```
-### Noclip 3/Mesh Noclip ✨
+### Noclip 2/Mesh Noclip ✨
 @tyetonix
 ```json
 {
