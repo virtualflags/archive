@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.795336809263">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.795347125369">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -30,12 +30,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.795336809263" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.795347125369" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.795336809263" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.795347125369" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.795336809263" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.6.0.795336809263" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.795347125369" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.6.0.795347125369" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -482,18 +482,6 @@
     &quot;DFIntTouchSenderMaxBandwidthBps&quot;: &quot;-1&quot;
 }</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="fake-lag-desync">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#fake-lag-desync">#</doc-anchor-trigger>
-        <span>Fake Lag/Desync <span class="docs-emoji">&#x2728;</span></span>
-    </h3>
-</doc-anchor-target>
-<p>i hate to call it desync lol</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;DFIntS2PhysicsSenderRate&quot;: &quot;1&quot;
-}</code></pre>
-</doc-codeblock></div>
 <doc-anchor-target id="improved-syncing">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#improved-syncing">#</doc-anchor-trigger>
@@ -503,64 +491,6 @@
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-json"><code v-pre class="language-json">{
     &quot;DFIntS2PhysicsSenderRate&quot;: &quot;10000&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="invisible-1">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#invisible-1">#</doc-anchor-trigger>
-        <span>Invisible 1</span>
-    </h3>
-</doc-anchor-target>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Note</h5>
-<p><strong>Stops the physics on your character froms sending to the server so your character doesn&#x27;t move for the server. You can move on your client.</strong></p>
-        </div>
-    </div>
-</div>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;DFIntS2PhysicsSenderRate&quot;: &quot;100000&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="invisible-2">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#invisible-2">#</doc-anchor-trigger>
-        <span>Invisible 2 <span class="docs-emoji">&#x2728;</span></span>
-    </h3>
-</doc-anchor-target>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Note</h5>
-<p><strong>Locks your character&#x27;s position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable. Here is a list of them: <a href="assets/lists/experiences/specific.md">Link</a></strong></p>
-        </div>
-    </div>
-</div>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;DFIntGameNetPVHeaderTranslationZeroCutoffExponent&quot;: &quot;10&quot;
 }</code></pre>
 </doc-codeblock></div>
 <doc-anchor-target id="clientsided-invisible">
@@ -615,41 +545,13 @@
 </div>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-json"><code v-pre class="language-json">{
-    &quot;DFIntAssemblyExtentsExpansionStudHundredth&quot;: &quot;-50&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="noclip-2">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#noclip-2">#</doc-anchor-trigger>
-        <span>Noclip 2</span>
-    </h3>
-</doc-anchor-target>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-green-500"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-green-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M21 9.09c-.55 0-1 .45-1 1v.92c0 4.96-4.04 8.99-9 8.99-4.97 0-9-4.04-9-9s4.04-9 9-9c1.27 0 2.5.26 3.66.78.51.22 1.1 0 1.32-.51.23-.5 0-1.1-.51-1.32C14.06.32 12.56 0 11.01 0H11C4.94 0 0 4.93 0 10.99 0 17.06 4.93 22 10.99 22H11c6.06 0 11-4.93 11-10.99v-.92c0-.56-.45-1-1-1z"></path>
-                    <path d="M8.71 9.31a.996.996 0 10-1.41 1.41l3 3c.19.19.44.29.71.29.27 0 .52-.11.71-.29l10-10.01a.996.996 0 10-1.41-1.41L11 11.6 8.71 9.31z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Tip</h5>
-<p><strong>Adjust the value so you don&#x27;t fall through the ground</strong></p>
-        </div>
-    </div>
-</div>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
     &quot;DFIntSimBroadPhasePairCountMax&quot;: &quot;50&quot;
 }</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="noclip-3-mesh-noclip">
+<doc-anchor-target id="noclip-2-mesh-noclip">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#noclip-3-mesh-noclip">#</doc-anchor-trigger>
-        <span>Noclip 3/Mesh Noclip <span class="docs-emoji">&#x2728;</span></span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#noclip-2-mesh-noclip">#</doc-anchor-trigger>
+        <span>Noclip 2/Mesh Noclip <span class="docs-emoji">&#x2728;</span></span>
     </h3>
 </doc-anchor-target>
 <p>@tyetonix</p>
