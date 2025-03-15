@@ -9,7 +9,7 @@ branding:
   title: "FastFlags.Space"
   label: master
   logo: assets/allred.gif
-  logoDark: assets/allred.gif
+  logoDark: assets/album.gif
 links:
 - text: Repository
   link: https://github.com/fastdotspace/fastflags.space
