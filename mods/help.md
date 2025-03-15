@@ -12,7 +12,7 @@ icon: devices
 6. **Save** ok
 
 ## Download 
-### https://github.com/fastdotspace/mods
+### [https://github.com/fastdotspace/mods](https://github.com/fastdotspace/mods/archive/refs/heads/main.zip)
 
 <div align="center">
 
