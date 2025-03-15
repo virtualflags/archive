@@ -7,7 +7,21 @@ layout: central
 
 <div align="center">
 
-### v3.3 downfall of fastflags ong [!badge variant="info" text="LATEST"]
+### v3.14 I CAN SEEEEEE YA BABY BOI [!badge variant="info" text="LATEST"]
+Released: 2025-03-14
+
+</div>
+
+disappointing changes ion even bother listing
+
+$$
+\displaystyle {1 +  \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots }= \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \quad\quad \text{for }\lvert q\rvert<1.
+$$
+
+
+<div align="center">
+
+### v3.3 downfall of fastflags ong
 Released: 2025-03-03
 
 </div>

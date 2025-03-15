@@ -12,16 +12,16 @@ branding:
   logoDark: assets/allred.gif
 links:
 - text: Repository
-  link: https://github.com/virtualflags/archive
+  link: https://github.com/fastdotspace/fastflags.space
   icon: mark-github
 - text: Discord
   link: https://discord.gg/6zqNQTSkrg
   icon: home
 - text: Issues
-  link: https://github.com/virtualflags/archive/issues
+  link: https://github.com/fastdotspace/fastflags.space/issues
   icon: comment-discussion
 footer:
-  copyright: "the wonderful world of fastflags.space | &copy; Copyright {{ year }} – [VirtualFlags](https://github.com/virtualflags/) – All rights reserved."
+  copyright: "the wonderful world of fastflags.space | &copy; Copyright {{ year }} – [fastdotspace](https://github.com/fastdotspace/) – All rights reserved."
 exclude: "README.md"
 meta:
   title: " | fastflags.space"
