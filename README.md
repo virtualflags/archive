@@ -12,8 +12,7 @@
 
 ### *✧× links to the page ×✧*
 
-#### ⭐ https://virtualflags.github.io/archive/
-
+#### ⭐ https://fastflags.space
 ##### 🪞 https://fastflags.netlify.app/
 
 </div>
