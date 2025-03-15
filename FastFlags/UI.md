@@ -170,10 +170,10 @@ order: -5
     "DFIntMicroProfilerDpiScaleOverride":  "100"
 }
 ```
-### Set Custom Font Size
+### Disable New MicroProfiler/Debug UIs
 ```json
 {
-    "FIntFontSizePadding": "1"
+    "FFlagImproveMicroprofilerReadability": "False"
 }
 ```
 ### Adjust Scroll Speed
