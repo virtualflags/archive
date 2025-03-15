@@ -11,12 +11,11 @@ icon: devices
 5. **Open** the **Bloxstrap Menu** >> `Appearance` >> Select any style from the pack
 6. **Save** ok
 
-## Download 
-### [https://github.com/fastdotspace/mods](https://github.com/fastdotspace/mods/archive/refs/heads/main.zip)
+[!file Download Files](https://github.com/fastdotspace/mods/archive/refs/heads/main.zip)
 
 <div align="center">
 
 ##### Examples
-[!ref icon="log"]([/logs/changelog.md](https://github.com/bloxstraplabs/custom-bootstrapper-examples))
+[!ref icon="log"]([(https://github.com/bloxstraplabs/custom-bootstrapper-examples)
 
 </div>
