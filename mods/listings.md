@@ -1,6 +1,6 @@
 ---
 title: File Listings
-icon: rel-file-path	
+icon: log
 order: -2
 authors:
   - name: Farrelle
@@ -23,7 +23,7 @@ date: 2025-03-15
 
 # Synapse V3
 
-<img src="https://raw.githubusercontent.com/fastdotspace/mods/refs/heads/main/assets/Synapse/image.pngf" width="25" alt="Preview">
+<img src="https://raw.githubusercontent.com/fastdotspace/mods/refs/heads/main/assets/Synapse/image.png" width="312" alt="Preview">
 
 ###### by @
 
