@@ -36,12 +36,6 @@ order: -7
     "DFFlagAnimatorPostProcessIK": "True"
 }
 ```
-### Adjust Hip Height Clamps
-```json
-{
-    "DFIntHipHeightClamp": "-48"
-}
-```
 ### Random High Jumps
 ```json
 {
@@ -187,14 +181,6 @@ i hate to call it desync lol
     "DFIntMaxClientSimulationRadius": "2147000000",
     "DFFlagDebugPhysicsSenderDoesNotShrinkSimRadius": "True",
     "FFlagDebugUseCustomSimRadius": "True"
-}
-```
-### Slide on Terrain/Meshes
-@tyetonix & @amongusphobia
-```json
-{
-    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999",
-    "DFIntMaximumFreefallMoveTimeInTenths": "2147483647"
 }
 ```
 ### Drive Vehicles Slow
