@@ -179,6 +179,7 @@ order: -7
 {
     "FFlagDebugAvatarChatVisualization": "True",
     "FFlagEnableInGameMenuChromeABTest4": "False",
+    "FFlagEnableInGameMenuChrome": "False",
     "FFlagEnableInGameMenuSongbirdABTest": "False"
 }
 ```
