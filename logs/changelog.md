@@ -6,7 +6,7 @@ layout: blog
 authors:
   - name: skusta005
     link: https://github.com/skusta005
-    avatar: assets/album.gif
+    avatar: assets/ALBUM.gif
 date: 2025-02-01
 ---
 
