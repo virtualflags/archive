@@ -11,8 +11,6 @@ date: 2025-03-15
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/fastdotspace/fastflags.space/refs/heads/fix/assets/ALBUM.gif" width="128" alt="YVL">
-
 [!file Download Files](https://github.com/fastdotspace/mods/archive/refs/heads/main.zip)
 
 [!ref Read our guide](/mods/help.md)
