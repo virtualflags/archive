@@ -6,11 +6,11 @@ layout: blog
 authors:
   - name: skusta005
     link: https://github.com/skusta005
-    avatar: assets/ALBUM.gif
+    avatar: assets/album.gif
 date: 2025-02-01
 ---
 
-![](assets/IAMMUSIC.jpg)
+![](https://github.com/user-attachments/assets/deaad011-7b3f-4ef6-a894-66725984e166)
 
 <div align="center">
 
