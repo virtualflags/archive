@@ -1,9 +1,16 @@
 ---
+title: FastFlags.Space Changelogs
 icon: log
 order: -3
-visibility: hidden
-layout: central
+layout: blog
+authors:
+  - name: skusta005
+    link: https://github.com/skusta005
+    avatar: assets/album.gif
+date: 2025-02-01
 ---
+
+![](assets/IAMMUSIC.jpg)
 
 <div align="center">
 
