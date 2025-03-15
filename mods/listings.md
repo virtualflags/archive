@@ -21,6 +21,6 @@ date: 2025-03-15
 
 <img src="https://raw.githubusercontent.com/fastdotspace/mods/refs/heads/main/assets/Synapse/image.png" width="312" alt="Preview">
 
-by @
+###### Source: Fishstrap
 
 </div>
